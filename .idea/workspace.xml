@@ -2,33 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32837c55-396e-44b6-980c-9821342caded" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/big-images/background-images/Columbia_Night_bg.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/background-images/Hudson_Night_bg.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/background-images/XJTU_1_bg.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/background-images/XJTU_2_bg.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/background-images/Columbia_Night_bg.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/background-images/Hudson_Night_bg.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/background-images/XJTU_1_bg.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/background-images/XJTU_2_bg.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/logo-images/Columbia_Logo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/logo-images/NUS_Logo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/logo-images/SYSU_Logo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/logo-images/XJTU_Logo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/square-images/Portrait.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/square-images/logo-images/Columbia_Logo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/square-images/logo-images/NUS_Logo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/square-images/logo-images/SYSU_Logo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/square-images/logo-images/XJTU_Logo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/background-images/alstede_farm.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/background-images/central_park.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/background-images/columbia_lib.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/background-images/columbia_night.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/background-images/delaware_water_gap.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/background-images/hudson_river.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/background-images/hudson_river_night.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/background-images/xjtu_building.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/background-images/xjtu_overlook.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/background-images/alstede_farm.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/background-images/central_park.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/background-images/columbia_lib.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/background-images/columbia_night.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/background-images/delaware_water_gap.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/background-images/hudson_river.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/background-images/hudson_river_night.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/background-images/xjtu_building.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/background-images/xjtu_overlook.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Columbia_Logo.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Columbia_Night.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Hudson_Night.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/NUS_Logo.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Portrait.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/SYSU_Logo.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/XJTU-1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/XJTU-2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/XJTU_Logo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/alstede-farm.html" beforeDir="false" afterPath="$PROJECT_DIR$/alstede-farm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/central-park.html" beforeDir="false" afterPath="$PROJECT_DIR$/central-park.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/columbia.html" beforeDir="false" afterPath="$PROJECT_DIR$/columbia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delaware-water-gap.html" beforeDir="false" afterPath="$PROJECT_DIR$/delaware-water-gap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hudson-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/hudson-river.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/big-images/background-images/Columbia_Night_bg.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/big-images/background-images/Hudson_Night_bg.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/big-images/background-images/XJTU_1_bg.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/big-images/background-images/XJTU_2_bg.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-images/background-images/Columbia_Night_bg.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-images/background-images/Hudson_Night_bg.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-images/background-images/XJTU_1_bg.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-images/background-images/XJTU_2_bg.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599690102071</updated>
-      <workItem from="1599690103153" duration="10441000" />
+      <workItem from="1599690103153" duration="11911000" />
     </task>
     <servers />
   </component>
