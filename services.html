@@ -40,61 +40,95 @@
       </div>
       <div class="site-mobile-menu-body"></div>
     </div>
-    
 
+
+    <!--Navigation header-->
     <header class="site-navbar py-3" role="banner">
-      
-      
-
 
       <div class="container">
         <div class="row align-items-center">
-          
+
+          <!--Header big title-->
           <div class="col-6 col-xl-2">
-            <h1 class="mb-0"><a href="index.html" class="text-black h2 mb-0">fotograp<span class="text-primary">.</span></a></h1>
+            <h1 class="mb-0"><a href="index.html" class="text-black h2 mb-0">Researcher<span class="text-primary">.</span></a></h1>
           </div>
+          <!--Header text list-->
           <div class="col-10 col-md-8 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
 
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="index.html">Home</a></li>
+                <!--Education and Courses-->
+                <li class="has-children">
+                  <a href="single.html">Education</a>
+                  <ul class="dropdown">
+                    <li><a href="#">Education</a></li>
+                    <li><a href="#">Course</a></li>
+                  </ul>
+                </li>
+                <!--Research and Publication-->
+                <li class="has-children">
+                  <a href="single.html">Research</a>
+                  <ul class="dropdown">
+                    <li><a href="#">Research</a></li>
+                    <li><a href="#">Publication</a></li>
+                  </ul>
+                </li>
+                <!--Project, Work, Skills and Honor-->
+                <li class="has-children">
+                  <a href="single.html">Professional</a>
+                  <ul class="dropdown">
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Internship</a></li>
+                    <li><a href="#">Skill</a></li>
+                    <li><a href="#">Honor & Award</a></li>
+                  </ul>
+                </li>
+                <!--Photo-->
                 <li class="has-children">
                   <a href="single.html">Photography</a>
                   <ul class="dropdown">
-                    <li><a href="#">Nature</a></li>
-                    <li><a href="#">Portrait</a></li>
-                    <li><a href="#">Wedding</a></li>
-                    <li class="has-children">
-                      <a href="#">Sub Menu</a>
-                      <ul class="dropdown">
-                        <li><a href="#">Menu One</a></li>
-                        <li><a href="#">Menu Two</a></li>
-                        <li><a href="#">Menu Three</a></li>
-                      </ul>
-                    </li>
+                    <li><a href="central-park.html">Central Park</a></li>
+                    <li><a href="columbia.html">Columbia University</a></li>
+                    <li><a href="delaware-water-gap.html">Delaware Water Gap</a></li>
+                    <li><a href="alstede-farm.html">Alstede Farm</a></li>
+                    <li><a href="hudson-river.html">Hudson River</a></li>
                   </ul>
                 </li>
-                <li class="active"><a href="services.html">Services</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <!--              <li class="has-children">-->
+                <!--                <a href="single.html">Photography</a>-->
+                <!--                <ul class="dropdown">-->
+                <!--                  <li><a href="#">Nature</a></li>-->
+                <!--                  <li><a href="#">Portrait</a></li>-->
+                <!--                  <li><a href="#">Wedding</a></li>-->
+                <!--                  <li class="has-children">-->
+                <!--                    <a href="#">Sub Menu</a>-->
+                <!--                    <ul class="dropdown">-->
+                <!--                      <li><a href="#">Menu One</a></li>-->
+                <!--                      <li><a href="#">Menu Two</a></li>-->
+                <!--                      <li><a href="#">Menu Three</a></li>-->
+                <!--                    </ul>-->
+                <!--                  </li>-->
+                <!--                </ul>-->
+                <!--              </li>-->
               </ul>
             </nav>
           </div>
-
+          <!--Header icon list-->
           <div class="col-6 col-xl-2 text-right">
             <div class="d-none d-xl-inline-block">
               <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">
                 <li>
-                  <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                  <a href="https://github.com/YangChenye" class="pl-0 pr-3" title="GitHub"><span class="icon-github"></span></a>
                 </li>
                 <li>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                  <a href="https://www.linkedin.com/in/chenye-yang/" class="pl-3 pr-3" title="LinkedIn"><span class="icon-linkedin"></span></a>
                 </li>
                 <li>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                  <a href="https://scholar.google.com/citations?hl=en&user=6JjxVK0AAAAJ" class="pl-3 pr-3" title="Google Scholar"><span class="icon-school"></span></a>
                 </li>
                 <li>
-                  <a href="#" class="pl-3 pr-3"><span class="icon-youtube-play"></span></a>
+                  <a href="http://icsl.ee.columbia.edu" class="pl-3 pr-3" title="Lab"><span class="icon-flask"></span></a>
                 </li>
               </ul>
             </div>
@@ -105,7 +139,7 @@
 
         </div>
       </div>
-      
+
     </header>
 
     <div class="site-blocks-cover overlay inner-page-cover" style="background-image: url('images/hero_bg_1.jpg');" data-stellar-background-ratio="0.5">
@@ -301,9 +335,9 @@
         <div class="row pt-5 mt-5 text-center">
           <div class="col-md-12">
             <p>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy; Chenye Yang <script>document.write(new Date().getFullYear());</script> All rights reserved | Made by <a href="https://colorlib.com" target="_blank" >Colorlib</a> and modified by Chenye Yang | All images photographed by Chenye Yang
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
           </div>
           

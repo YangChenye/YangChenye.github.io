@@ -2,74 +2,135 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32837c55-396e-44b6-980c-9821342caded" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/YangChenye.github.io.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/central-park.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Columbia_Night.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Hudson_Night.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Portrait.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/alstede-farm/20200905-_DSC0010.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/alstede-farm/20200905-_DSC0012.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/alstede-farm/20200905-_DSC0015.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/alstede-farm/20200905-_DSC0056.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/alstede-farm/20200905-_DSC0059.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/alstede-farm/20200905-_DSC0060.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/alstede-farm/20200905-_DSC0061.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/alstede-farm/20200905-_DSC0070.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/alstede-farm/20200905-_DSC0073.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/central-park/20200208-_DSC0022.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/central-park/20200208-_DSC0030.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/central-park/20200208-_DSC0050.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/central-park/20200610-_DSC0004.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/central-park/20200610-_DSC0022.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/central-park/20200610-_DSC0024.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/central-park/20200610-_DSC0026.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/central-park/20200610-_DSC0027.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/central-park/20200610-_DSC0028.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/central-park/20200712-_DSC0001.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/central-park/20200712-_DSC0002.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/central-park/20200712-_DSC0005.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/central-park/20200712-_DSC0007.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/columbia/20200202-_DSC0012.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/columbia/20200222-_DSC0022.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/columbia/20200222-_DSC0023.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/columbia/20200222-_DSC0028.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/columbia/20200222-_DSC0039.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/columbia/20200222-_DSC0040.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/columbia/20200828-_DSC0002.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/delaware-water-gap/20200827-_DSC0019.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/delaware-water-gap/20200827-_DSC0023.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/delaware-water-gap/20200827-_DSC0039.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/delaware-water-gap/20200827-_DSC0043.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/delaware-water-gap/20200827-_DSC0045.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/delaware-water-gap/20200827-_DSC0048.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/delaware-water-gap/20200827-_DSC0059.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/delaware-water-gap/20200827-_DSC0060.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/delaware-water-gap/20200827-_DSC0062.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/delaware-water-gap/20200827-_DSC0069.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/delaware-water-gap/20200827-_DSC0073.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/delaware-water-gap/20200827-_DSC0080.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/delaware-water-gap/20200827-_DSC0105.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/delaware-water-gap/20200827-_DSC0121.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/central-park/20200208-_DSC0022.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/central-park/20200208-_DSC0030.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/central-park/20200208-_DSC0050.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/central-park/20200610-_DSC0004.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/central-park/20200610-_DSC0022.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/central-park/20200610-_DSC0024.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/central-park/20200610-_DSC0026.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/central-park/20200610-_DSC0027.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/central-park/20200610-_DSC0028.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/central-park/20200712-_DSC0001.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/central-park/20200712-_DSC0002.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/central-park/20200712-_DSC0005.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/central-park/20200712-_DSC0007.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/20200222-_DSC0039.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/DSC00631.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/XJTU_Logo.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/XJTU_Logo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alstede-farm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/columbia.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delaware-water-gap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hudson-river.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/XJTU-1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/XJTU-2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/columbia/20200202-_DSC0001.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/columbia/20200202-_DSC0002.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/hudson-river/20200702-_DSC0007.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/hudson-river/20200717-_DSC0006.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/hudson-river/20200717-_DSC0179.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/hudson-river/20200717-_DSC0330.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/hudson-river/20200727-_DSC0015.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/hudson-river/20200727-_DSC0025.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/hudson-river/20200727-_DSC0037.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/hudson-river/20200727-_DSC0042.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/alstede-farm/20200905-_DSC0010.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/alstede-farm/20200905-_DSC0012.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/alstede-farm/20200905-_DSC0015.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/alstede-farm/20200905-_DSC0056.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/alstede-farm/20200905-_DSC0059.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/alstede-farm/20200905-_DSC0060.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/alstede-farm/20200905-_DSC0061.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/alstede-farm/20200905-_DSC0070.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/alstede-farm/20200905-_DSC0073.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/columbia/20200202-_DSC0001.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/columbia/20200202-_DSC0002.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/columbia/20200202-_DSC0012.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/columbia/20200222-_DSC0022.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/columbia/20200222-_DSC0023.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/columbia/20200222-_DSC0028.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/columbia/20200222-_DSC0039.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/columbia/20200222-_DSC0040.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/columbia/20200828-_DSC0002.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/delaware-water-gap/20200827-_DSC0019.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/delaware-water-gap/20200827-_DSC0023.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/delaware-water-gap/20200827-_DSC0039.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/delaware-water-gap/20200827-_DSC0043.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/delaware-water-gap/20200827-_DSC0045.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/delaware-water-gap/20200827-_DSC0048.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/delaware-water-gap/20200827-_DSC0059.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/delaware-water-gap/20200827-_DSC0060.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/delaware-water-gap/20200827-_DSC0062.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/delaware-water-gap/20200827-_DSC0069.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/delaware-water-gap/20200827-_DSC0073.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/delaware-water-gap/20200827-_DSC0080.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/delaware-water-gap/20200827-_DSC0105.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/delaware-water-gap/20200827-_DSC0121.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/hudson-river/20200702-_DSC0007.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/hudson-river/20200717-_DSC0006.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/hudson-river/20200717-_DSC0179.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/hudson-river/20200717-_DSC0330.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/hudson-river/20200727-_DSC0015.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/hudson-river/20200727-_DSC0025.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/hudson-river/20200727-_DSC0037.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/hudson-river/20200727-_DSC0042.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/alstede-farm/20200905-_DSC0010.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/alstede-farm/20200905-_DSC0012.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/alstede-farm/20200905-_DSC0015.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/alstede-farm/20200905-_DSC0056.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/alstede-farm/20200905-_DSC0059.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/alstede-farm/20200905-_DSC0060.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/alstede-farm/20200905-_DSC0061.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/alstede-farm/20200905-_DSC0070.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/alstede-farm/20200905-_DSC0073.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/central-park/20200208-_DSC0022.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/central-park/20200208-_DSC0030.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/central-park/20200208-_DSC0050.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/central-park/20200610-_DSC0004.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/central-park/20200610-_DSC0022.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/central-park/20200610-_DSC0024.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/central-park/20200610-_DSC0026.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/central-park/20200610-_DSC0027.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/central-park/20200610-_DSC0028.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/central-park/20200712-_DSC0001.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/central-park/20200712-_DSC0002.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/central-park/20200712-_DSC0005.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/central-park/20200712-_DSC0007.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/columbia/20200202-_DSC0001.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/columbia/20200202-_DSC0002.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/columbia/20200202-_DSC0012.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/columbia/20200222-_DSC0022.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/columbia/20200222-_DSC0023.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/columbia/20200222-_DSC0028.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/columbia/20200222-_DSC0039.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/columbia/20200222-_DSC0040.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/columbia/20200828-_DSC0002.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/delaware-water-gap/20200827-_DSC0019.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/delaware-water-gap/20200827-_DSC0023.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/delaware-water-gap/20200827-_DSC0039.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/delaware-water-gap/20200827-_DSC0043.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/delaware-water-gap/20200827-_DSC0045.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/delaware-water-gap/20200827-_DSC0048.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/delaware-water-gap/20200827-_DSC0059.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/delaware-water-gap/20200827-_DSC0060.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/delaware-water-gap/20200827-_DSC0062.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/delaware-water-gap/20200827-_DSC0069.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/delaware-water-gap/20200827-_DSC0073.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/delaware-water-gap/20200827-_DSC0080.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/delaware-water-gap/20200827-_DSC0105.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/delaware-water-gap/20200827-_DSC0121.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/hudson-river/20200702-_DSC0007.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/hudson-river/20200717-_DSC0006.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/hudson-river/20200717-_DSC0179.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/hudson-river/20200717-_DSC0330.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/hudson-river/20200727-_DSC0015.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/hudson-river/20200727-_DSC0025.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/hudson-river/20200727-_DSC0037.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/hudson-river/20200727-_DSC0042.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/central-park.html" beforeDir="false" afterPath="$PROJECT_DIR$/central-park.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-images/central-park/20200208-_DSC0022.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/small-images/central-park/20200208-_DSC0022.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-images/central-park/20200208-_DSC0030.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/small-images/central-park/20200208-_DSC0030.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-images/central-park/20200208-_DSC0050.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/small-images/central-park/20200208-_DSC0050.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-images/central-park/20200610-_DSC0004.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/small-images/central-park/20200610-_DSC0004.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-images/central-park/20200610-_DSC0022.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/small-images/central-park/20200610-_DSC0022.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-images/central-park/20200610-_DSC0024.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/small-images/central-park/20200610-_DSC0024.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-images/central-park/20200610-_DSC0026.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/small-images/central-park/20200610-_DSC0026.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-images/central-park/20200610-_DSC0027.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/small-images/central-park/20200610-_DSC0027.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-images/central-park/20200610-_DSC0028.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/small-images/central-park/20200610-_DSC0028.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-images/central-park/20200712-_DSC0001.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/small-images/central-park/20200712-_DSC0001.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-images/central-park/20200712-_DSC0002.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/small-images/central-park/20200712-_DSC0002.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-images/central-park/20200712-_DSC0005.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/small-images/central-park/20200712-_DSC0005.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-images/central-park/20200712-_DSC0007.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/small-images/central-park/20200712-_DSC0007.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/single.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +168,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599690102071</updated>
-      <workItem from="1599690103153" duration="4295000" />
+      <workItem from="1599690103153" duration="9720000" />
     </task>
     <servers />
   </component>
