@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32837c55-396e-44b6-980c-9821342caded" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alstede-farm.html" beforeDir="false" afterPath="$PROJECT_DIR$/alstede-farm.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/central-park.html" beforeDir="false" afterPath="$PROJECT_DIR$/central-park.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/columbia.html" beforeDir="false" afterPath="$PROJECT_DIR$/columbia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delaware-water-gap.html" beforeDir="false" afterPath="$PROJECT_DIR$/delaware-water-gap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hudson-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/hudson-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photography.html" beforeDir="false" afterPath="$PROJECT_DIR$/photography.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/professional.html" beforeDir="false" afterPath="$PROJECT_DIR$/professional.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/research.html" beforeDir="false" afterPath="$PROJECT_DIR$/research.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/big-images/background-images/about.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/big-images/background-images/education.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/big-images/background-images/education.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/big-images/background-images/photography.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/big-images/background-images/photography.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/big-images/background-images/research.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/big-images/background-images/research.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-images/background-images/about.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-images/background-images/education.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/small-images/background-images/education.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-images/background-images/photography.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/small-images/background-images/photography.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-images/background-images/research.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/images/small-images/background-images/research.jpeg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +52,7 @@
       <workItem from="1600022216766" duration="12878000" />
       <workItem from="1600038605997" duration="1373000" />
       <workItem from="1600118147776" duration="12557000" />
-      <workItem from="1600141292922" duration="3526000" />
+      <workItem from="1600141292922" duration="4098000" />
     </task>
     <servers />
   </component>
