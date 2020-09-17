@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32837c55-396e-44b6-980c-9821342caded" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/Add_Copyright.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/Change_Img_Res.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/not-used/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/not-used/services.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/not-used/single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Change_Img_Res.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/alstede-farm.html" beforeDir="false" afterPath="$PROJECT_DIR$/alstede-farm.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/central-park.html" beforeDir="false" afterPath="$PROJECT_DIR$/central-park.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/columbia.html" beforeDir="false" afterPath="$PROJECT_DIR$/columbia.html" afterDir="false" />
@@ -17,13 +9,9 @@
       <change beforePath="$PROJECT_DIR$/delaware-water-gap.html" beforeDir="false" afterPath="$PROJECT_DIR$/delaware-water-gap.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/education.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hudson-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/hudson-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-old.html" beforeDir="false" afterPath="$PROJECT_DIR$/not-used/index-old.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/photography.html" beforeDir="false" afterPath="$PROJECT_DIR$/photography.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/professional.html" beforeDir="false" afterPath="$PROJECT_DIR$/professional.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/research.html" beforeDir="false" afterPath="$PROJECT_DIR$/research.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/single.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +37,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/not-used" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -66,7 +57,7 @@
       <workItem from="1600038605997" duration="1373000" />
       <workItem from="1600118147776" duration="12557000" />
       <workItem from="1600141292922" duration="4423000" />
-      <workItem from="1600380493464" duration="650000" />
+      <workItem from="1600380493464" duration="1021000" />
     </task>
     <servers />
   </component>
