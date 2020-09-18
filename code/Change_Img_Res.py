@@ -1,8 +1,8 @@
 import os
 from PIL import Image
 
-path_l = 'images/small-images/'
-path_h = 'images/big-images/'
+path_l = '../images/small-images/'
+path_h = '../images/big-images/'
 
 imageFolder = 'background-images/'
 

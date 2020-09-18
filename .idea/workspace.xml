@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32837c55-396e-44b6-980c-9821342caded" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/alstede-farm.html" beforeDir="false" afterPath="$PROJECT_DIR$/alstede-farm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/central-park.html" beforeDir="false" afterPath="$PROJECT_DIR$/central-park.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/columbia.html" beforeDir="false" afterPath="$PROJECT_DIR$/columbia.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/background-images/contact.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/background-images/contact.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Change_Img_Res.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Change_Img_Res.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delaware-water-gap.html" beforeDir="false" afterPath="$PROJECT_DIR$/delaware-water-gap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hudson-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/hudson-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photography.html" beforeDir="false" afterPath="$PROJECT_DIR$/photography.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/professional.html" beforeDir="false" afterPath="$PROJECT_DIR$/professional.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/research.html" beforeDir="false" afterPath="$PROJECT_DIR$/research.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +53,7 @@
       <workItem from="1600038605997" duration="1373000" />
       <workItem from="1600118147776" duration="12557000" />
       <workItem from="1600141292922" duration="4423000" />
-      <workItem from="1600380493464" duration="1727000" />
+      <workItem from="1600380493464" duration="7973000" />
     </task>
     <servers />
   </component>
@@ -69,6 +64,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1257" y="306" key="CommitChangelistDialog2" timestamp="1600382021123">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1257" y="306" key="CommitChangelistDialog2/0.23.2560.1417@0.23.2560.1417" timestamp="1600382021123" />
+    <state x="512" y="154" key="DiffContextDialog" timestamp="1600382009901">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="512" y="154" key="DiffContextDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1600382009901" />
     <state x="1552" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1600144577420">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
