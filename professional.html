@@ -166,42 +166,62 @@
         <div class="col-md-12 mb-5">
           <h2 class="text-black">Project</h2>
 
-          <h3><span style="float:left">Skin Temperature Sensing System</span><span style="float:right"><i>Jan 2020 - present</i></span></h3>
-          <p class="row col-md-12 mb-0">Supervised by Prof. Xiaofan (Fred) Jiang, Columbia University.</p>
-          <p class="row col-md-12 mb-0">Research Intern of Columbia Intelligent and Connected Systems Lab.</p>
+          <h3><span style="float:left">Large Scale Stream Processing</span><span style="float:right"><i>Jan 2020 – May 2020</i></span></h3>
+          <p class="row col-md-12 mb-0">Implement the query-based network monitoring application.</p>
           <ul>
-            <li>Match multiple heads between RGB and thermal image pairs, train and deploy YOLOV3 (head detection) and FSANet (head orientation regression), calculate distance using non-identical RGB and thermal camera, etc.</li>
-            <li>Design the front-end dashboard, and deploying the system in a restaurant and a hospital in New York City.</li>
-            <li>Learn human-orientated data-driven research. One paper in prepare for IPSN/IoTDI 2021.</li>
+            <li>Create data generator with data generating thread and control receiving thread, stream processor with data receiving and processing thread and control receiving thread, database and website UI with function of controlling system and visualizing results. Design the socket communication between data generator and stream processor, HTTP communication between database and other parts, control the data generator and stream processor through website UI with websocket.</li>
+            <li>Data generator settings configurable: the rate of incoming tuples summarizing an individual flow, the number of IP addresses and protocols involved in the flows, and the distribution of the network usage over the different kinds of protocols and IP addresses.</li>
+            <li>Stream processor ability: list protocols that are consuming more than H percent of the total external bandwidth over the last T time units, list the top-k most resource intensive protocols over the last T time units, list all protocols that are consuming more than X times the standard deviation of the average traffic consumption of all protocols over the last T time units, etc.</li>
+            <li>Outcome: Report. Location: Project/Report/E6889 Stream Project Report.pdf [<a href="https://github.com/YangChenye/LARGE-SCALE-STREAM-PROCESSING">link</a>]</li>
           </ul>
 
-          <h3><span style="float:left">Khameleon Scheduler in Reinforcement Learning</span><span style="float:right"><i>Jul 2020 - present</i></span></h3>
-          <p class="row col-md-12 mb-0">Supervised by Prof. Eugene Wu, Columbia University.</p>
-          <p class="row col-md-12 mb-0">Research Intern of WuLab Columbia University.</p>
+          <h3><span style="float:left">Sparse Models for High-Dimensional Data</span><span style="float:right"><i>Jan 2020 – May 2020</i></span></h3>
+          <p class="row col-md-12 mb-0">Object tracking with Robust PCA initialization and sparse recovery.</p>
           <ul>
-            <li>Create the simulated RL environment, which can pre-compute the transition relationships or compute it dynamically in run-time.</li>
-            <li>Write Q-Learning and SARSA based prefetching scheduler to trade off latency for response quality with the progressive encoded response in cloud-based interactive applications.</li>
-            <li>Add predicted user preferred action choice to algorithms above. Adding user experience-related parameters to the value function/reward.</li>
+            <li>Sports game requires centralized athletes and high-resolution video to ensure the watching experience. Traditional tracking methods, which realize the centering of athletes, require an initial box as input, which brings human interaction and may cause uncertainty. We designed a system (Clear Focus) which implements robust PCA to get the initial box automatically as the input for L1 tracker to remove the human interaction. To make the whole process faster while keep a high-resolution video, we also introduce super-resolution reconstruction of the video frame to the system. The Clear Focus system is tested on a sport video and daily scenario. Results indicate the succeed of this system. However, there are some limitations existing, like unstable in specific minor case or time-consuming.</li>
+            <li>Outcome: Report. Location: Project/Report/E6876_Report_cy2540_yl4189.pdf [<a href="https://github.com/YangChenye/SPARSE-MODELS-FOR-HI-D-DA">link</a>]</li>
           </ul>
 
-          <h3><span style="float:left">Optical Quantum Information</span><span style="float:right"><i>Feb 2019 – Jun 2019</i></span></h3>
-          <p class="row col-md-12 mb-0">Supervised by Prof. Xiaoqi Zhou, Sun Yat-sen University.</p>
-          <p class="row col-md-12 mb-0">Research Intern of Optical Quantum Information Lab.</p>
+          <h3><span style="float:left">Internet of Things</span><span style="float:right"><i>Sep 2019 – Dec 2019</i></span></h3>
+          <p class="row col-md-12 mb-0">Team Leader.</p>
           <ul>
-            <li>Undergraduate thesis. Simulation of integrated optics for quantum information applications.</li>
-            <li>Designed methods to solve optimal parameters of grating coupler based on regression analysis and constrained optimization problem solving.</li>
-            <li>Conducted simulation experiment with one-dimensional grating coupler.</li>
-            <li>One paper written.</li>
+            <li>Program ESP8266 with MicroPython and C to deal with analog data, SPI/I2C bus communication and interrupts, to work with Google Geolocation, OpenWeatherMap and Twitter APIs, to run as an embedded server and receive Android App message, to communicate with MongoDB and do gesture recognition.</li>
+            <li>Design a long-range, low-power, low-cost soil condition sensing system to simultaneously measure soil moisture and temperature over long duration at multiple locations. It is a distributed, scalable sensing network: using one LoRa gateway to link multiple sensor units via LoRa wireless communication. Data is stored in MongoDB. A dashboard website is built for spatial and temporal data visualization and systems control.</li>
+            <li>Outcome: Embedded System and Website. A ESP8266 smart watch, a soil condition sensing system and a website. [<a href="https://github.com/YangChenye/IOT---INTELLIG-CONNECTED-SYS">link</a>]</li>
           </ul>
 
-          <h3><span style="float:left">Cyber-Physical Energy Systems </span><span style="float:right"><i>Oct 2017 - Feb 2019</i></span></h3>
-          <p class="row col-md-12 mb-0">Supervised by Prof. Jiang Wu, Xi’an Jiaotong University.</p>
-          <p class="row col-md-12 mb-0">Member of XJTU Information-technology Talent Program.</p>
-          <p class="row col-md-12 mb-0">Research Intern of Ministry of Education Key Lab for Intelligent Networks and Network Security.</p>
+          <h3><span style="float:left">Random Matrix Theory and Application</span><span style="float:right"><i>Sep 2019 – Dec 2019</i></span></h3>
+          <p class="row col-md-12 mb-0"></p>
           <ul>
-            <li>Responsible for clustering and analysis algorithms for massive data on energy demand side.</li>
-            <li>Learn the procedure of research and big data clustering algorithm in centralized and distributed environment.</li>
-            <li>Two papers written and one accepted by Chinese Control Conference.</li>
+            <li>Reproduce the conclusions with uniform samples in "Bandlimited Field Reconstruction for Wireless Sensor Networks".</li>
+            <li>Experiment on Gaussian distribution of sampling and discuss the difference. Point out the problem of insufficient evidence for a conclusion in the paper.</li>
+            <li>Outcome: Report. Location: Project/Paper & Presentation/RMT_Report_ChenyeYang_cy2540.pdf [<a href="https://github.com/YangChenye/RAN-MAT-THR-APP-AI-DAT-SCI">link</a>]</li>
+          </ul>
+
+          <h3><span style="float:left">Statistical Learning</span><span style="float:right"><i>Sep 2019 – Dec 2019</i></span></h3>
+          <p class="row col-md-12 mb-0"></p>
+          <ul>
+            <li>Reproduce the behavioral biometric methods results about identification and authentication in "Smartphone and Smartwatch-Based Biometrics Using Activities of Daily Living" with "WISDM Smartphone and Smartwatch Activity and Biometrics Dataset" using classification methods like Decision Tree, Random Forest and K-NN.</li>
+            <li>Conduct another method, Support Vector Machine, on the same dataset and compare the results of different methods applied to this specific problem and dataset.</li>
+            <li>Outcome: Report. Location: Project/Report/StatL_Report_cy2540_bw2632_zx2269.pdf [<a href="https://github.com/YangChenye/STAT-LRNING-BIOL-INFO-SYST">link</a>]</li>
+          </ul>
+
+          <h3><span style="float:left">Obstacle Avoidance for Unmanned Vehicle</span><span style="float:right"><i>Mar 2018 – Jun 2018</i></span></h3>
+          <p class="row col-md-12 mb-0">Team Leader.</p>
+          <ul>
+            <li>Built peripheral circuit and car structure based on myRIO development board, and programmed on myRIO with LabVIEW software.</li>
+            <li>Manually realized a remote motion control of vehicle to enable it to go straight, swerve, back up, etc.</li>
+            <li>Identified vehicle’s location by the infrared sensor and realized automatic obstacles avoidance.</li>
+            <li>Outcome: Project. A toy car which can be remotely controlled or run spontaneously to bypass obstacles.</li>
+          </ul>
+
+          <h3><span style="float:left">Pattern Classification</span><span style="float:right"><i>Mar 2018 – Jun 2018</i></span></h3>
+          <p class="row col-md-12 mb-0"></p>
+          <ul>
+            <li>Implemented Fixed-increment Batch Perceptron algorithm, Fixed-increment Single-sample Perceptron algorithm and Widrow-Hoff algorithm in Matlab.</li>
+            <li>Realized real time face detection captured by camera based on OpenCV and using the Python programming language.</li>
+            <li>Built face recognition model based on CNN, training classifier and identified human face in real-time camera data.</li>
+            <li>Outcome: Project. [<a href="https://github.com/YangChenye/Pattern_Classification">link</a>]</li>
           </ul>
 
         </div>
