@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32837c55-396e-44b6-980c-9821342caded" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/organization-color.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/big-images/experience/dunhuang.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/experience/dunhuang.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alstede-farm.html" beforeDir="false" afterPath="$PROJECT_DIR$/alstede-farm.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/central-park.html" beforeDir="false" afterPath="$PROJECT_DIR$/central-park.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Change_Img_Res.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Change_Img_Res.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/columbia.html" beforeDir="false" afterPath="$PROJECT_DIR$/columbia.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/delaware-water-gap.html" beforeDir="false" afterPath="$PROJECT_DIR$/delaware-water-gap.html" afterDir="false" />
@@ -75,6 +71,9 @@
       <workItem from="1600448683137" duration="3347000" />
       <workItem from="1600481284274" duration="2961000" />
       <workItem from="1601431289911" duration="6211000" />
+      <workItem from="1601438006679" duration="55000" />
+      <workItem from="1601438236841" duration="148000" />
+      <workItem from="1601438750508" duration="506000" />
     </task>
     <servers />
   </component>
@@ -97,9 +96,9 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="512" y="154" key="DiffContextDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1600382009901" />
-    <state x="1552" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1601436822149">
+    <state x="1552" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1601439057349">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="1552" y="348" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1601436822149" />
+    <state x="1552" y="348" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1601439057349" />
   </component>
 </project>
