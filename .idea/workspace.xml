@@ -2,16 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32837c55-396e-44b6-980c-9821342caded" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/big-images/experience/cps.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/experience/iot.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/experience/obstacle-avoidance.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/experience/pattern-classification.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/experience/quantum.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/experience/random-matrix.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/experience/sparse-model.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/experience/statistical-learning.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/experience/stream-processing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/experience/sugon.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/experience/cps.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/experience/iot.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/experience/obstacle-avoidance.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/experience/pattern-classification.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/experience/quantum.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/experience/random-matrix.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/experience/sparse-model.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/experience/statistical-learning.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/experience/stream-processing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/experience/sugon.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alstede-farm.html" beforeDir="false" afterPath="$PROJECT_DIR$/alstede-farm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/central-park.html" beforeDir="false" afterPath="$PROJECT_DIR$/central-park.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/columbia.html" beforeDir="false" afterPath="$PROJECT_DIR$/columbia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delaware-water-gap.html" beforeDir="false" afterPath="$PROJECT_DIR$/delaware-water-gap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hudson-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/hudson-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photography.html" beforeDir="false" afterPath="$PROJECT_DIR$/photography.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/professional.html" beforeDir="false" afterPath="$PROJECT_DIR$/professional.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/research.html" beforeDir="false" afterPath="$PROJECT_DIR$/research.html" afterDir="false" />
     </list>
@@ -74,6 +85,7 @@
       <workItem from="1601438006679" duration="55000" />
       <workItem from="1601438236841" duration="148000" />
       <workItem from="1601438750508" duration="506000" />
+      <workItem from="1601460383770" duration="1965000" />
     </task>
     <servers />
   </component>

@@ -16,5 +16,5 @@ for item in files:
 
 for file in files:
     im_h = Image.open(path_h + imageFolder + file)
-    im_l = im_h.resize((900, 1200))
+    im_l = im_h.resize((1200, 900))
     im_l.save(path_l + imageFolder + file, quality=85)
