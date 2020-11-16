@@ -3,6 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="32837c55-396e-44b6-980c-9821342caded" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alstede-farm.html" beforeDir="false" afterPath="$PROJECT_DIR$/alstede-farm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/central-park.html" beforeDir="false" afterPath="$PROJECT_DIR$/central-park.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/columbia.html" beforeDir="false" afterPath="$PROJECT_DIR$/columbia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delaware-water-gap.html" beforeDir="false" afterPath="$PROJECT_DIR$/delaware-water-gap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hudson-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/hudson-river.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photography.html" beforeDir="false" afterPath="$PROJECT_DIR$/photography.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/professional.html" beforeDir="false" afterPath="$PROJECT_DIR$/professional.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/research.html" beforeDir="false" afterPath="$PROJECT_DIR$/research.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +77,8 @@
       <workItem from="1601460383770" duration="2267000" />
       <workItem from="1602212516747" duration="636000" />
       <workItem from="1603059428386" duration="23000" />
+      <workItem from="1605516997376" duration="254000" />
+      <workItem from="1605517267482" duration="191000" />
     </task>
     <servers />
   </component>
@@ -88,6 +101,10 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="512" y="154" key="DiffContextDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1600382009901" />
+    <state x="1167" y="365" width="707" height="735" key="find.popup" timestamp="1605517455367">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="1167" y="365" width="707" height="735" key="find.popup/0.25.2560.1415@0.25.2560.1415" timestamp="1605517455367" />
     <state x="1552" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1601439057349">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
