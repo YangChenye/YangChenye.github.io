@@ -4,7 +4,10 @@ from PIL import Image
 path_l = '../images/small-images/'
 path_h = '../images/big-images/'
 
-imageFolder = 'experience/'
+imageFolder = 'background-images/'
+
+if not os.path.exists(path_l+imageFolder):
+    os.makedirs(path_l+imageFolder)
 
 # read files names
 files = os.listdir(path_h + imageFolder)
@@ -16,5 +19,5 @@ for item in files:
 
 for file in files:
     im_h = Image.open(path_h + imageFolder + file)
-    im_l = im_h.resize((1200, 900))
+    im_l = im_h.resize((3000, 2000))
     im_l.save(path_l + imageFolder + file, quality=85)

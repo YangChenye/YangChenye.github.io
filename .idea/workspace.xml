@@ -1,9 +1,213 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="32837c55-396e-44b6-980c-9821342caded" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/big-images/background-images/people.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/background-images/pitt-cmu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/background-images/snowstorm-ny.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/background-images/waldenpond-boston-mit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/background-images/yale.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/central-park/20201031-_DSC0023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/central-park/20210207-_DSC0028.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/central-park/20210207-_DSC0037.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/central-park/20210207-_DSC0038.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/central-park/20210207-_DSC0039.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/central-park/20210207-_DSC0045.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/people/20201031-_DSC0059.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/people/20201031-_DSC0074.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/pitt-cmu/20201231-_DSC0020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/pitt-cmu/20201231-_DSC0023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/pitt-cmu/20201231-_DSC0027.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/pitt-cmu/20201231-_DSC0038.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/pitt-cmu/20201231-_DSC0056.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/pitt-cmu/20210116-_DSC0011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/snowstorm-ny/20210201-_DSC0004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/snowstorm-ny/20210201-_DSC0007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/snowstorm-ny/20210201-_DSC0016.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/snowstorm-ny/20210201-_DSC0017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/snowstorm-ny/20210201-_DSC0031.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/snowstorm-ny/20210201-_DSC0034.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/snowstorm-ny/20210201-_DSC0054.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/snowstorm-ny/20210201-_DSC0057.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/snowstorm-ny/20210201-_DSC0060.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/snowstorm-ny/20210207-_DSC0017.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/snowstorm-ny/20210207-_DSC0066.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/waldenpond-boston-mit/20201003-_DSC0143.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/waldenpond-boston-mit/20201003-_DSC0164.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/waldenpond-boston-mit/20201003-_DSC0174.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/waldenpond-boston-mit/20201004-_DSC0007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/waldenpond-boston-mit/20201004-_DSC0017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/waldenpond-boston-mit/20201004-_DSC0021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/waldenpond-boston-mit/20201004-_DSC0038.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/waldenpond-boston-mit/20201004-_DSC0060.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/waldenpond-boston-mit/20201004-_DSC0064.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/waldenpond-boston-mit/20201004-_DSC0078.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/waldenpond-boston-mit/20201004-_DSC0085.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/yale/20201003-_DSC0062.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/yale/20201003-_DSC0074.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/yale/20201003-_DSC0075.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/yale/20201003-_DSC0076.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/yale/20201003-_DSC0078.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-images/yale/20201003-_DSC0107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/background-images/people.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/background-images/pitt-cmu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/background-images/snowstorm-ny.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/background-images/waldenpond-boston-mit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/background-images/yale.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/central-park/20201031-_DSC0023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/central-park/20210207-_DSC0028.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/central-park/20210207-_DSC0037.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/central-park/20210207-_DSC0038.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/central-park/20210207-_DSC0039.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/central-park/20210207-_DSC0045.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/people/20201031-_DSC0059.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/people/20201031-_DSC0074.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/pitt-cmu/20201231-_DSC0020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/pitt-cmu/20201231-_DSC0023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/pitt-cmu/20201231-_DSC0027.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/pitt-cmu/20201231-_DSC0038.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/pitt-cmu/20201231-_DSC0056.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/pitt-cmu/20210116-_DSC0011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/snowstorm-ny/20210201-_DSC0004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/snowstorm-ny/20210201-_DSC0007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/snowstorm-ny/20210201-_DSC0016.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/snowstorm-ny/20210201-_DSC0017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/snowstorm-ny/20210201-_DSC0031.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/snowstorm-ny/20210201-_DSC0034.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/snowstorm-ny/20210201-_DSC0054.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/snowstorm-ny/20210201-_DSC0057.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/snowstorm-ny/20210201-_DSC0060.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/snowstorm-ny/20210207-_DSC0017.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/snowstorm-ny/20210207-_DSC0066.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/waldenpond-boston-mit/20201003-_DSC0143.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/waldenpond-boston-mit/20201003-_DSC0164.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/waldenpond-boston-mit/20201003-_DSC0174.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/waldenpond-boston-mit/20201004-_DSC0007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/waldenpond-boston-mit/20201004-_DSC0017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/waldenpond-boston-mit/20201004-_DSC0021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/waldenpond-boston-mit/20201004-_DSC0038.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/waldenpond-boston-mit/20201004-_DSC0060.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/waldenpond-boston-mit/20201004-_DSC0064.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/waldenpond-boston-mit/20201004-_DSC0078.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/waldenpond-boston-mit/20201004-_DSC0085.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/yale/20201003-_DSC0062.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/yale/20201003-_DSC0074.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/yale/20201003-_DSC0075.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/yale/20201003-_DSC0076.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/yale/20201003-_DSC0078.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/yale/20201003-_DSC0107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/central-park/20201031-_DSC0023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/central-park/20210207-_DSC0028.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/central-park/20210207-_DSC0037.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/central-park/20210207-_DSC0038.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/central-park/20210207-_DSC0039.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/central-park/20210207-_DSC0045.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/people/20201031-_DSC0059.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/people/20201031-_DSC0074.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/pitt-cmu/20201231-_DSC0020.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/pitt-cmu/20201231-_DSC0023.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/pitt-cmu/20201231-_DSC0027.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/pitt-cmu/20201231-_DSC0038.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/pitt-cmu/20201231-_DSC0056.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/pitt-cmu/20210116-_DSC0011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/snowstorm-ny/20210201-_DSC0004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/snowstorm-ny/20210201-_DSC0007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/snowstorm-ny/20210201-_DSC0016.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/snowstorm-ny/20210201-_DSC0017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/snowstorm-ny/20210201-_DSC0031.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/snowstorm-ny/20210201-_DSC0034.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/snowstorm-ny/20210201-_DSC0054.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/snowstorm-ny/20210201-_DSC0057.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/snowstorm-ny/20210201-_DSC0060.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/snowstorm-ny/20210207-_DSC0017.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/snowstorm-ny/20210207-_DSC0066.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/waldenpond-boston-mit/20201003-_DSC0143.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/waldenpond-boston-mit/20201003-_DSC0164.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/waldenpond-boston-mit/20201003-_DSC0174.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/waldenpond-boston-mit/20201004-_DSC0007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/waldenpond-boston-mit/20201004-_DSC0017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/waldenpond-boston-mit/20201004-_DSC0021.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/waldenpond-boston-mit/20201004-_DSC0038.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/waldenpond-boston-mit/20201004-_DSC0060.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/waldenpond-boston-mit/20201004-_DSC0064.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/waldenpond-boston-mit/20201004-_DSC0078.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/waldenpond-boston-mit/20201004-_DSC0085.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/yale/20201003-_DSC0062.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/yale/20201003-_DSC0074.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/yale/20201003-_DSC0075.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/yale/20201003-_DSC0076.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/yale/20201003-_DSC0078.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/square-images/yale/20201003-_DSC0107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/people.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pitt-cmu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snowstorm-ny.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/waldenpond-boston-mit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yale.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/MSEE_2020_12_Yang_Chenye_cy2540.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/files/MSEE_2020_12_Yang_Chenye_cy2540.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alstede-farm.html" beforeDir="false" afterPath="$PROJECT_DIR$/alstede-farm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/central-park.html" beforeDir="false" afterPath="$PROJECT_DIR$/central-park.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Change_Img_Res.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Change_Img_Res.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/EXIF_Read.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EXIF_Read.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/columbia.html" beforeDir="false" afterPath="$PROJECT_DIR$/columbia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delaware-water-gap.html" beforeDir="false" afterPath="$PROJECT_DIR$/delaware-water-gap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hudson-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/hudson-river.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/big-images/nature_big_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/big-images/nature_big_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/big-images/nature_big_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/big-images/nature_big_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/big-images/nature_big_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/big-images/nature_big_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/big-images/nature_big_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/big-images/nature_big_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/big-images/nature_big_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hero_bg_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hero_bg_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hero_bg_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nature_small_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nature_small_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nature_small_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nature_small_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nature_small_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nature_small_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nature_small_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nature_small_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/nature_small_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/person_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/person_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/person_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/person_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/person_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/person_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/person_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photography.html" beforeDir="false" afterPath="$PROJECT_DIR$/photography.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/professional.html" beforeDir="false" afterPath="$PROJECT_DIR$/professional.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/research.html" beforeDir="false" afterPath="$PROJECT_DIR$/research.html" afterDir="false" />
     </list>
@@ -39,11 +243,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/not-used" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/not-used" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -76,11 +280,24 @@
       <workItem from="1606332054677" duration="457000" />
       <workItem from="1606332726735" duration="2098000" />
       <workItem from="1606538671350" duration="567000" />
+      <workItem from="1614111375129" duration="131000" />
+      <workItem from="1614111514428" duration="5524000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
