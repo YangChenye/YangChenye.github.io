@@ -84,9 +84,9 @@
               <li class="has-children">
                 <a href="professional.html">Professional</a>
                 <ul class="dropdown">
+                  <li><a href="professional.html#internship">Internship</a></li>
                   <li><a href="professional.html#project">Project</a></li>
                   <li><a href="professional.html#teaching">Teaching</a></li>
-                  <li><a href="professional.html#internship">Internship</a></li>
                   <li><a href="professional.html#skill">Skill</a></li>
                   <li><a href="professional.html#honor">Honor & Award</a></li>
                 </ul>
@@ -140,7 +140,7 @@
                 <a href="https://scholar.google.com/citations?hl=en&user=6JjxVK0AAAAJ" class="pl-3 pr-3" title="Google Scholar"><span class="icon-school"></span></a>
               </li>
               <li>
-                <a href="files/MSEE_2020_12_Yang_Chenye_cy2540.pdf" class="pl-3 pr-3" title="CV"><span class="icon-download"></span></a>
+                <a href="files/MSEE_2021_04_Yang_Chenye_cy2540.pdf" class="pl-3 pr-3" title="Résumé"><span class="icon-download"></span></a>
               </li>
             </ul>
           </div>
@@ -173,16 +173,33 @@
         <div class="col-md-12 mb-5">
           <h2 class="text-black">Research Experience</h2>
 
-          <h3><span style="float:left">Skin Temperature Sensing System</span><span style="float:right"><i class="columbia" style="font-size: smaller">Jan 2020 - present</i></span></h3>
-          <div class="row">
+          <h3><span style="float:left">Edge AI System for Smart Home</span><span style="float:right"><i class="columbia" style="font-size: smaller">Jun 2021 - Sep 2021</i></span></h3>
+          <div class="row col-md-12 mb-0">
             <div class="col-md-8">
               <p class="row col-md-12 mb-0">Supervised by Prof. Xiaofan (Fred) Jiang, Columbia University.</p>
-              <p class="row col-md-12 mb-0">Research Intern of Columbia Intelligent and Connected Systems Lab.</p>
+              <p class="row col-md-12 mb-0">Summer Research Assistant in Columbia Intelligent and Connected Systems Lab.</p>
+              <ul>
+                <li>A system able to auto-discover the sensors connected to it and allocate sensor and actuator resources according to the smart home applications users specified, deployed in multiple lab rooms.</li>
+                <li>Survey on current Edge AI systems and Digital Twin (DT) representation, and design our own system architecture from MCU and sensor hardware to user application. Build the testbed from scratch.</li>
+                <li>Testbed: Arduino Uno reads custom sensor data (vibration, sound, etc.) and transmit them to ESP8266 via UART. ESP8266 packs data with DT format and MQTT discovery format, and sends them to lab computer server (HTTP with Flask) and Home Assistant Raspberry Pi server (MQTT). Integrate Google Nest camera into HA and get the video stream. Data stored in PostgreSQL and MarialDB.</li>
+              </ul>
+            </div>
+            <div class="col-md-4 ml-auto">
+              <img src="images/small-images/experience/edge-ai-1.png" alt="Images" class="img-fluid">
+              <img src="images/small-images/experience/edge-ai-2.png" alt="Images" class="img-fluid">
+            </div>
+          </div>
+
+          <h3><span style="float:left">Fever Screening System</span><span style="float:right"><i class="columbia" style="font-size: smaller">Jan 2020 - May 2021</i></span></h3>
+          <div class="row col-md-12 mb-0">
+            <div class="col-md-8">
+              <p class="row col-md-12 mb-0">Supervised by Prof. Xiaofan (Fred) Jiang, Columbia University.</p>
+              <p class="row col-md-12 mb-0">Research Intern in Columbia Intelligent and Connected Systems Lab.</p>
               <ul>
                 <li>A low-cost system based on RGB-thermal camera for continuous fever screening of multiple people without human interaction, deployed in a restaurant and hospital clinic in New York City.</li>
-                <li>Match multiple heads between RGB and thermal image pairs, retrain and deploy YOLOV3 (head detection) and FSANet (head orientation regression), calculate distance using non-identical RGB and thermal camera, etc.</li>
-                <li>Contribute to paper writing. One poster accepted by SenSys 2020 Poster [<a href="https://dl.acm.org/doi/10.1145/3384419.3430398">ACM DL</a>]. One paper in review for IPSN 2021.</li>
-                <li>News: <a href="https://www.ee.columbia.edu/ee-professor-fred-jiang-and-team-won-award-develop-continuous-fever-detection-system">Columbia Electrical Engineering</a>. Project website: <a href="http://icsl.ee.columbia.edu/FeverScreening/">ICSL Fever Screening</a>.</li>
+                <li>Investigate solutions. Match multiple RGB and thermal heads, train and deploy YOLOV3 (head detection) and FSA- Net (head orientation regression), estimate distance using non-identical RGB and thermal camera, etc.</li>
+                <li>Contribute to paper writing. Two publications accepted by SenSys 2020 Poster [<a href="https://dl.acm.org/doi/10.1145/3384419.3430398">ACM DL</a>] and CPHS 2021 [<a href="https://dl.acm.org/doi/10.1145/3458648.3460006">ACM DL</a>].</li>
+                <li>News: <a href="https://www.ee.columbia.edu/ee-professor-fred-jiang-and-team-win-award-develop-continuous-fever-detection-system">Columbia Electrical Engineering</a>. Project website: <a href="http://icsl.ee.columbia.edu/FeverScreening/">ICSL Fever Screening</a>.</li>
               </ul>
             </div>
             <div class="col-md-3 ml-auto">
@@ -191,26 +208,34 @@
           </div>
 
           <h3><span style="float:left">Khameleon Scheduler in Reinforcement Learning</span><span style="float:right"><i class="columbia" style="font-size: smaller">Jul 2020 - Sep 2020</i></span></h3>
-          <p class="row col-md-12 mb-0">Supervised by Prof. Eugene Wu, Columbia University.</p>
-          <p class="row col-md-12 mb-0">Research Intern of WuLab Columbia University.</p>
-          <ul>
-            <li>The server-side scheduler involves a complex optimization based on available resources, predicted user interactions, and response quality levels to maximize user-perceived interactivity in real-time.</li>
-            <li>Create the simulated RL environment, which can pre-compute the transition relationships or compute it dynamically in run-time.</li>
-            <li>Write Q-Learning and SARSA based prefetching scheduler to trade off latency for response quality with the progressive encoded response in cloud-based interactive applications.</li>
-            <li>Add predicted user preferred action choice to algorithms above. Adding user experience-related parameters to the value function/reward.</li>
-            <li>Project GitHub: <a href="https://github.com/YangChenye/Khameleon-Scheduler-RL">Khameleon-Scheduler-RL</a>.</li>
-          </ul>
+          <div class="row col-md-12 mb-0">
+            <div class="col-md-8">
+              <p class="row col-md-12 mb-0">Supervised by Prof. Eugene Wu, Columbia University.</p>
+              <p class="row col-md-12 mb-0">Research Intern in WuLab Columbia University.</p>
+              <ul>
+                <li>The server-side scheduler involves a complex optimization based on available resources, predicted user interactions, and response quality levels to maximize user-perceived interactivity in real-time.</li>
+                <li>Create the simulated RL environment, which can pre-compute the transition relationships or compute it dynamically in run-time.</li>
+                <li>Write Q-Learning and SARSA based prefetching scheduler to trade off latency for response quality with the progressive encoded response in cloud-based interactive applications.</li>
+                <li>Add predicted user preferred action choice to algorithms above.</li>
+                <li>Project GitHub: <a href="https://github.com/YangChenye/Khameleon-Scheduler-RL">Khameleon-Scheduler-RL</a>.</li>
+              </ul>
+            </div>
+            <div class="col-md-4 ml-auto">
+              <img src="images/small-images/experience/khameleon-1.png" alt="Images" class="img-fluid">
+              <img src="images/small-images/experience/khameleon-2.png" alt="Images" class="img-fluid">
+            </div>
+          </div>
 
           <h3><span style="float:left">Optical Quantum Information</span><span style="float:right"><i class="sysu" style="font-size: smaller">Feb 2019 – Jun 2019</i></span></h3>
-          <div class="row">
+          <div class="row col-md-12 mb-0">
             <div class="col-md-8">
               <p class="row col-md-12 mb-0">Supervised by Prof. Xiaoqi Zhou, Sun Yat-sen University.</p>
-              <p class="row col-md-12 mb-0">Research Intern of Optical Quantum Information Lab.</p>
+              <p class="row col-md-12 mb-0">Research Intern in Optical Quantum Information Lab.</p>
               <ul>
                 <li>Undergraduate thesis. Simulation of integrated optics for quantum information applications.</li>
                 <li>Designed methods to solve optimal parameters of grating coupler based on regression analysis and constrained optimization problem solving.</li>
                 <li>Conducted simulation experiment with one-dimensional grating coupler.</li>
-                <li>Outcome: One paper written.</li>
+                <li>Outcome: One thesis paper written.</li>
               </ul>
             </div>
             <div class="col-md-4 ml-auto">
@@ -220,11 +245,11 @@
 
 
           <h3><span style="float:left">Cyber-Physical Energy Systems</span><span style="float:right"><i class="xjtu" style="font-size: smaller">Oct 2017 - Feb 2019</i></span></h3>
-          <div class="row">
+          <div class="row col-md-12 mb-0">
             <div class="col-md-8">
               <p class="row col-md-12 mb-0">Supervised by Prof. Jiang Wu, Xi’an Jiaotong University.</p>
               <p class="row col-md-12 mb-0">Member of XJTU Information-technology Talent Program.</p>
-              <p class="row col-md-12 mb-0">Research Intern of Ministry of Education Key Lab for Intelligent Networks and Network Security.</p>
+              <p class="row col-md-12 mb-0">Research Intern in Ministry of Education Key Lab for Intelligent Networks and Network Security.</p>
               <ul>
                 <li>Proposed centralized K-means algorithm, using weighted combination of features from PCA and prior knowledge. Expanded it to distributed cases, using parameter consensus and feature transferring method.</li>
                 <li>Write centralized & distributed K-means clustering algorithms for massive data on energy demand side. Analyze the results obtained from the power system in a city. Contribute to paper writing.</li>
@@ -245,8 +270,9 @@
           <h2 class="text-black">Publication</h2>
           <p class="columbia mb-0">Columbia University</p>
           <ol>
-            <li>Peter Wei, <u>Chenye Yang</u>, Hengjiu Kang, Xiaofan Jiang, "SIFTER: A Low-Cost Skin Temperature Sensing System for Multi-Person Continuous Fever Screening" <i>(in review for IPSN 2021)</i>.</li>
-            <li>Peter Wei, <u>Chenye Yang</u>, Xiaofan Jiang, "Low-Cost Multi-Person Continuous Skin Temperature Sensing System for Fever Detection: Poster Abstract" <i>(accepted by SenSys 2020 Poster)</i> [<a href="https://dl.acm.org/doi/10.1145/3384419.3430398">ACM DL</a>].</li>
+            <li>Stephen Xia, Rishikanth Chandrasekaran, Yanchen Liu, <u>Chenye Yang</u>, Tajana Simunic Rosing, Xiaofan Jiang, "A Drone-based System for Intelligent and Autonomous Homes" <i>(SenSys 2021 Best Demo Award)</i> [<a href="https://dl.acm.org/doi/10.1145/3485730.3492881">ACM DL</a>].</li>
+            <li>Peter Wei, Yanchen Liu, Hengjiu Kang, <u>Chenye Yang</u>, Xiaofan Jiang, "A Low-Cost and Scalable Personalized Thermal Comfort Estimation System in Indoor Environments" <i>(CPHS 2021)</i> [<a href="https://dl.acm.org/doi/10.1145/3458648.3460006">ACM DL</a>].</li>
+            <li>Peter Wei, <u>Chenye Yang</u>, Xiaofan Jiang, "Low-Cost Multi-Person Continuous Skin Temperature Sensing System for Fever Detection: Poster Abstract" <i>(SenSys 2020 Poster)</i> [<a href="https://dl.acm.org/doi/10.1145/3384419.3430398">ACM DL</a>].</li>
           </ol>
           <p class="sysu mb-0">Sun Yat-sen University</p>
           <ol>
@@ -254,7 +280,7 @@
           </ol>
           <p class="xjtu mb-0">Xi’an Jiaotong University</p>
           <ol>
-            <li>Pengyuan Liu, Jiang Wu, <u>Chenye Yang</u>, "Geo-Distributed Online Clustering for Load Pattern Analysis" <i>(not accepted)</i>.</li>
+<!--            <li>Pengyuan Liu, Jiang Wu, <u>Chenye Yang</u>, "Geo-Distributed Online Clustering for Load Pattern Analysis" <i>(not accepted)</i>.</li>-->
             <li>Pengyuan Liu, <u>Chenye Yang</u>, Jiang Wu, "Hybrid Features Based K-means Clustering Algorithm for Use in Electricity Customer Load Pattern Analysis" <i>(accepted by 2018 37th Chinese Control Conference)</i> [<a href="https://doi.org/10.23919/ChiCC.2018.8483451">DOI</a>].</li>
           </ol>
 
@@ -272,7 +298,7 @@
         <div class="col-lg-4">
           <div class="mb-5">
             <h3 class="footer-heading mb-4">Copyright</h3>
-            <p>Copyright &copy; Chenye Yang <script>document.write(new Date().getFullYear());</script> All rights reserved | Template made by <a href="https://colorlib.com" target="_blank" >Colorlib</a> | Images photographed by Chenye Yang, unauthorized use is prohibited</p>
+            <p>Copyright &copy; Chenye Yang <script>document.write(new Date().getFullYear().toString());</script> All rights reserved | Template made by <a href="https://colorlib.com" target="_blank" >Colorlib</a> | Images photographed by Chenye Yang, unauthorized use is prohibited</p>
           </div>
         </div>
 
@@ -305,9 +331,9 @@
             <a href="https://www.linkedin.com/in/chenye-yang/" class="pl-3 pr-3" title="LinkedIn"><span class="icon-linkedin"></span></a>
             <a href="https://scholar.google.com/citations?hl=en&user=6JjxVK0AAAAJ" class="pl-3 pr-3" title="Google Scholar"><span class="icon-school"></span></a>
             <!--            <a href="http://icsl.ee.columbia.edu/" class="pl-3 pr-3"><span class="icon-flask" title="Lab"></span></a>-->
-            <a href="files/MSEE_2020_12_Yang_Chenye_cy2540.pdf" class="pl-3 pr-3" title="CV"><span class="icon-download"></span></a>
+            <a href="files/MSEE_2021_04_Yang_Chenye_cy2540.pdf" class="pl-3 pr-3" title="Résumé"><span class="icon-download"></span></a>
           </div>
-          <p class="my-4">Update on November 15, 2020</p>
+          <p class="my-4">Update on February 26, 2022</p>
         </div>
       </div>
     </div>
