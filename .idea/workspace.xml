@@ -20,14 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32837c55-396e-44b6-980c-9821342caded" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/files/MSEE_2021_04_Yang_Chenye_cy2540.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/experience/edge-ai-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/experience/edge-ai-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/experience/khameleon-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/experience/khameleon-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/experience/wilo-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/small-images/experience/wilo-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/YangChenye.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/YangChenye.github.io.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alstede-farm.html" beforeDir="false" afterPath="$PROJECT_DIR$/alstede-farm.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/central-park.html" beforeDir="false" afterPath="$PROJECT_DIR$/central-park.html" afterDir="false" />
@@ -35,7 +27,6 @@
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/delaware-water-gap.html" beforeDir="false" afterPath="$PROJECT_DIR$/delaware-water-gap.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/MSEE_2020_12_Yang_Chenye_cy2540.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hudson-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/hudson-river.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/people.html" beforeDir="false" afterPath="$PROJECT_DIR$/people.html" afterDir="false" />
@@ -131,6 +122,8 @@
       <workItem from="1645831612516" duration="3723000" />
       <workItem from="1645848890069" duration="9087000" />
       <workItem from="1646428524673" duration="261000" />
+      <workItem from="1652052536033" duration="144000" />
+      <workItem from="1652052752210" duration="696000" />
     </task>
     <servers />
   </component>
