@@ -20,23 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32837c55-396e-44b6-980c-9821342caded" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/code/Change_Single_Img_Res.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/small-images/experience/wilo-1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alstede-farm.html" beforeDir="false" afterPath="$PROJECT_DIR$/alstede-farm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/central-park.html" beforeDir="false" afterPath="$PROJECT_DIR$/central-park.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/columbia.html" beforeDir="false" afterPath="$PROJECT_DIR$/columbia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delaware-water-gap.html" beforeDir="false" afterPath="$PROJECT_DIR$/delaware-water-gap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hudson-river.html" beforeDir="false" afterPath="$PROJECT_DIR$/hudson-river.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/people.html" beforeDir="false" afterPath="$PROJECT_DIR$/people.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photography.html" beforeDir="false" afterPath="$PROJECT_DIR$/photography.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pitt-cmu.html" beforeDir="false" afterPath="$PROJECT_DIR$/pitt-cmu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/small-images/experience/wilo-1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/professional.html" beforeDir="false" afterPath="$PROJECT_DIR$/professional.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/research.html" beforeDir="false" afterPath="$PROJECT_DIR$/research.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snowstorm-ny.html" beforeDir="false" afterPath="$PROJECT_DIR$/snowstorm-ny.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/waldenpond-boston-mit.html" beforeDir="false" afterPath="$PROJECT_DIR$/waldenpond-boston-mit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yale.html" beforeDir="false" afterPath="$PROJECT_DIR$/yale.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +112,8 @@
       <workItem from="1646428524673" duration="261000" />
       <workItem from="1652052536033" duration="144000" />
       <workItem from="1652052752210" duration="696000" />
+      <workItem from="1652576382942" duration="521000" />
+      <workItem from="1652578533569" duration="162000" />
     </task>
     <servers />
   </component>
