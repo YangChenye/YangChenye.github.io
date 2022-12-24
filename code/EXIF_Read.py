@@ -4,7 +4,7 @@ import os
 path_l = '../images/small-images/'
 path_h = '../images/big-images/'
 
-imageFolder = 'central-park/'
+imageFolder = 'game/'
 
 # read files names
 files = os.listdir(path_h + imageFolder)
