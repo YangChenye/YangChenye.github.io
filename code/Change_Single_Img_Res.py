@@ -1,12 +1,12 @@
 import os
 from PIL import Image
 
-path_l = '../images/small-images/experience/'
-path_h = '../images/big-images/experience/'
+path_l = '../images/small-images/game/'
+path_h = '../images/big-images/game/'
 
 
-imageName = 'wilo-3.jpg'
+imageName = 'Untitled-18.jpeg'
 
 im_h = Image.open(path_h + imageName)
-im_l = im_h.resize((900, 1200))
+im_l = im_h.resize((800, 800))
 im_l.save(path_l + imageName, quality=85)
