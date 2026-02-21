@@ -175,13 +175,13 @@
         <div class="col-md-12 mb-5">
           <h2 class="text-black">Research Experience</h2>
 
-          <h3><span style="float:left">Robustness of Reinforcement Learning</span><span style="float:right"><i class="ucdavis" style="font-size: smaller">May 2025 - present</i></span></h3>
+          <h3><span style="float:left">Robustness of DPO</span><span style="float:right"><i class="ucdavis" style="font-size: smaller">May 2025 - present</i></span></h3>
           <div class="row col-md-12 mb-0">
             <!-- <div class="col-md-8"> -->
             <p class="row col-md-12 mb-0">Supervised by Prof. Lifeng Lai, UC Davis.</p>
             <p class="row col-md-12 mb-0">Graduate Student Researcher in Lai's group.</p>
             <ul>
-              <li>Doing research on reward and action robustness of reinforcement learning algorithms.</li>
+              <li>Research on adversarial poisoning robustness of Direct Preference Optimization (DPO).</li>
             </ul>
             <!-- </div> -->
             <!-- <div class="col-md-4 ml-auto">
@@ -196,9 +196,11 @@
               <p class="row col-md-12 mb-0">Supervised by Prof. Lifeng Lai, UC Davis.</p>
               <p class="row col-md-12 mb-0">Graduate Student Researcher in Lai's group.</p>
               <ul>
-                <li>Doing research on mathematical theory of Reinforcement Learning from Human Feedback (RLHF).</li>
-                <li>Study preference robustness of RLHF algorithms with online human feedback.</li>
-                <li>Propose attack strategy on RLHF framework and corresponding defense mechanism against attacks with bounded attack cost, and analyze their performance.</li>
+                <li>Research on preference robustness of RLHF algorithms with online human feedback, from mathematical aspects.</li>
+                <li>Investigate human feedback attacks on online RLHF: attacker forces the victim algorithm to eventually learn a suboptimal target policy with small attack cost.</li>
+                <li>Propose an adversarial human feedback poisoning strategy, and prove its success in misleading the online RLHF.</li>
+                <li>Propose a robust defense online RLHF algorithm, and prove it is robust to any attacker with bounded attack cost.</li>
+                <li>Simulation results validate the theoretical analysis. Published on IEEE TSP 2025 [<a href="https://doi.org/10.1109/TSP.2025.3607114">DOI</a>].</li>
               </ul>
             </div>
             <div class="col-md-4 ml-auto">
@@ -213,15 +215,18 @@
               <p class="row col-md-12 mb-0">Supervised by Prof. Lifeng Lai, UC Davis.</p>
               <p class="row col-md-12 mb-0">Graduate Student Researcher in Lai's group.</p>
               <ul>
-                <li>Doing research on mathematical theory of Bandit problem. Publications accepted by ACSSC 2023 [<a href="https://doi.org/10.1109/IEEECONF59524.2023.10476992">DOI</a>] and IEEE Transactions on Signal Processing [<a href="https://doi.org/10.1109/TSP.2024.3486240">DOI</a>].</li>
-                <li>Study rewards robustness of stochastic multi-armed bandit algorithms with non-stationary environment.</li>
-                <li>Design attack strategies for three increasingly general scenarios, and analyze their performance.</li>
-                <li>Propose defense mechanism against adversarial attacks with bounded attack cost, and analyze its effectiveness.</li>
+                <li>Research on reward attacks on stochastic multi-armed bandit with non-stationary environment, mathematically.</li>
+                <li>Investigate attackers who force the victim algorithm to choose a suboptimal arm mostly at a small attack cost.</li>
+                <li>Consider three general scenarios with different environment, algorithm, and information available to attacker.</li>
+                <li>Propose three attack strategies, and prove they are successful in terms of target arm selection and attack cost.</li>
+                <li>Propose a defense non-stationary bandit algorithm, and prove its robustness to any attacker with bounded attack cost.</li>
+                <li>Simulation results validate the theoretical analysis. Published on ACSSC 2023 [<a href="https://doi.org/10.1109/IEEECONF59524.2023.10476992">DOI</a>], IEEE TSP 2024 [<a href="https://doi.org/10.1109/TSP.2024.3486240">DOI</a>].</li>
               </ul>
             </div>
             <div class="col-md-4 ml-auto">
               <img src="images/small-images/experience/bandit-1.png" alt="Images" class="img-fluid">
               <img src="images/small-images/experience/bandit-2.png" alt="Images" class="img-fluid">
+              <img src="images/small-images/experience/bandit-3.png" alt="Images" class="img-fluid">
             </div>
           </div>
 
@@ -323,8 +328,9 @@
           <h2 class="text-black">Publication</h2>
           <p class="ucdavis mb-0">University of California, Davis</p>
           <ol>
-            <li><u>Chenye Yang</u>, Guanlin Liu, Lifeng Lai, "Stochastic Bandits With Non-Stationary Rewards: Reward Attack and Defense" <i>(IEEE Transactions on Signal Processing 2024)</i> [<a href="https://doi.org/10.1109/TSP.2024.3486240">DOI</a>]..</li>
-            <li><u>Chenye Yang</u>, Guanlin Liu, Lifeng Lai, "Reward Attack on Stochastic Bandits with Non-stationary Rewards" <i>(ACSSC 2023)</i> [<a href="https://doi.org/10.1109/IEEECONF59524.2023.10476992">DOI</a>]..</li>
+            <li><u>Chenye Yang</u>, Mo Lyu, Guanlin Liu, Lifeng Lai, "Human Feedback Attack on Online RLHF: Attack and Robust Defense" <i>(IEEE Transactions on Signal Processing 2025)</i> [<a href="https://doi.org/10.1109/TSP.2025.3607114">DOI</a>].</li>
+            <li><u>Chenye Yang</u>, Guanlin Liu, Lifeng Lai, "Stochastic Bandits With Non-Stationary Rewards: Reward Attack and Defense" <i>(IEEE Transactions on Signal Processing 2024)</i> [<a href="https://doi.org/10.1109/TSP.2024.3486240">DOI</a>].</li>
+            <li><u>Chenye Yang</u>, Guanlin Liu, Lifeng Lai, "Reward Attack on Stochastic Bandits with Non-stationary Rewards" <i>(ACSSC 2023)</i> [<a href="https://doi.org/10.1109/IEEECONF59524.2023.10476992">DOI</a>].</li>
           </ol>
           <p class="columbia mb-0">Columbia University</p>
           <ol>
@@ -391,7 +397,7 @@
             <!--            <a href="http://icsl.ee.columbia.edu/" class="pl-3 pr-3"><span class="icon-flask" title="Lab"></span></a>-->
             <a href="files/ChenyeYang_UCDavis_ECE_PhD.pdf" class="pl-3 pr-3" title="Résumé"><span class="icon-download"></span></a>
           </div>
-          <p class="my-4">Update on Sep 08, 2025</p>
+          <p class="my-4">Update on Feb 15, 2026</p>
         </div>
       </div>
     </div>
