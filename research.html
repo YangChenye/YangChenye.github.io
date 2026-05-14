@@ -175,13 +175,13 @@
         <div class="col-md-12 mb-5">
           <h2 class="text-black">Research Experience</h2>
 
-          <h3><span style="float:left">Robustness of DPO</span><span style="float:right"><i class="ucdavis" style="font-size: smaller">May 2025 - present</i></span></h3>
+          <h3><span style="float:left">Adversarially Robust DPO</span><span style="float:right"><i class="ucdavis" style="font-size: smaller">Jan 2026 - Present</i></span></h3>
           <div class="row col-md-12 mb-0">
             <!-- <div class="col-md-8"> -->
             <p class="row col-md-12 mb-0">Supervised by Prof. Lifeng Lai, UC Davis.</p>
             <p class="row col-md-12 mb-0">Graduate Student Researcher in Lai's group.</p>
             <ul>
-              <li>Research on adversarial poisoning robustness of Direct Preference Optimization (DPO).</li>
+              <li>Study adversarial robustness of Direct Preference Optimization (DPO) against preference poisoning. Manuscript under review.</li>
             </ul>
             <!-- </div> -->
             <!-- <div class="col-md-4 ml-auto">
@@ -190,16 +190,30 @@
             </div> -->
           </div>
 
-          <h3><span style="float:left">Preference Robustness of RLHF</span><span style="float:right"><i class="ucdavis" style="font-size: smaller">Dec 2023 - May 2025</i></span></h3>
+          <h3><span style="float:left">Preference Poisoning Attack on DPO</span><span style="float:right"><i class="ucdavis" style="font-size: smaller">May 2025 - Dec 2025</i></span></h3>
+          <div class="row col-md-12 mb-0">
+            <!-- <div class="col-md-8"> -->
+            <p class="row col-md-12 mb-0">Supervised by Prof. Lifeng Lai, UC Davis.</p>
+            <p class="row col-md-12 mb-0">Graduate Student Researcher in Lai's group.</p>
+            <ul>
+              <li>Studied targeted preference poisoning attacks against offline RLHF/DPO from a theoretical perspective.</li>
+              <li>Showed that label flipping in log-linear DPO induces a parameter-independent gradient shift, reducing attack design to a binary sparse approximation problem.</li>
+              <li>Proposed Binary-Aware Lattice Attack and Binary Matching Pursuit Attack with theoretical guarantees for attack feasibility, binary enforcement, minimum-flip recovery, support recovery, and impossibility of successful K-flip attacks.</li>
+              <li>Experiments on synthetic data and the SHP dataset validate the theory. Accepted at ICML 2026.</li>
+            </ul>
+            <!-- </div> -->
+          </div>
+
+          <h3><span style="float:left">Preference Robustness of Online RLHF</span><span style="float:right"><i class="ucdavis" style="font-size: smaller">Dec 2023 - May 2025</i></span></h3>
           <div class="row col-md-12 mb-0">
             <div class="col-md-8">
               <p class="row col-md-12 mb-0">Supervised by Prof. Lifeng Lai, UC Davis.</p>
               <p class="row col-md-12 mb-0">Graduate Student Researcher in Lai's group.</p>
               <ul>
-                <li>Research on preference robustness of RLHF algorithms with online human feedback, from mathematical aspects.</li>
-                <li>Investigate human feedback attacks on online RLHF: attacker forces the victim algorithm to eventually learn a suboptimal target policy with small attack cost.</li>
-                <li>Propose an adversarial human feedback poisoning strategy, and prove its success in misleading the online RLHF.</li>
-                <li>Propose a robust defense online RLHF algorithm, and prove it is robust to any attacker with bounded attack cost.</li>
+                <li>Studied preference robustness of RLHF algorithms with online human feedback from a theoretical perspective.</li>
+                <li>Investigated preference attacks that force online RLHF to learn a target suboptimal policy with small attack cost.</li>
+                <li>Proposed an adversarial human-feedback poisoning strategy and proved its success in misleading online RLHF.</li>
+                <li>Proposed a robust-defense online RLHF algorithm and proved its robustness to any attacker with bounded attack cost.</li>
                 <li>Simulation results validate the theoretical analysis. Published on IEEE TSP 2025 [<a href="https://doi.org/10.1109/TSP.2025.3607114">DOI</a>].</li>
               </ul>
             </div>
@@ -215,12 +229,12 @@
               <p class="row col-md-12 mb-0">Supervised by Prof. Lifeng Lai, UC Davis.</p>
               <p class="row col-md-12 mb-0">Graduate Student Researcher in Lai's group.</p>
               <ul>
-                <li>Research on reward attacks on stochastic multi-armed bandit with non-stationary environment, mathematically.</li>
-                <li>Investigate attackers who force the victim algorithm to choose a suboptimal arm mostly at a small attack cost.</li>
-                <li>Consider three general scenarios with different environment, algorithm, and information available to attacker.</li>
-                <li>Propose three attack strategies, and prove they are successful in terms of target arm selection and attack cost.</li>
-                <li>Propose a defense non-stationary bandit algorithm, and prove its robustness to any attacker with bounded attack cost.</li>
-                <li>Simulation results validate the theoretical analysis. Published on ACSSC 2023 [<a href="https://doi.org/10.1109/IEEECONF59524.2023.10476992">DOI</a>], IEEE TSP 2024 [<a href="https://doi.org/10.1109/TSP.2024.3486240">DOI</a>].</li>
+                <li>Studied reward attacks on stochastic multi-armed bandits in non-stationary environments.</li>
+                <li>Investigated attackers who force the victim algorithm to mostly choose a suboptimal arm with small attack cost.</li>
+                <li>Considered three general scenarios with different environments, algorithms, and attacker information.</li>
+                <li>Proposed three attack strategies and proved their success in terms of target-arm selection and attack cost.</li>
+                <li>Proposed a non-stationary bandit defense method and proved its robustness to any attacker with bounded attack cost.</li>
+                <li>Simulation results validate the theoretical analysis. Published at ACSSC 2023 [<a href="https://doi.org/10.1109/IEEECONF59524.2023.10476992">DOI</a>] and on IEEE TSP 2024 [<a href="https://doi.org/10.1109/TSP.2024.3486240">DOI</a>].</li>
               </ul>
             </div>
             <div class="col-md-4 ml-auto">
@@ -236,10 +250,10 @@
               <p class="row col-md-12 mb-0">Supervised by Prof. Xiaofan (Fred) Jiang, Columbia University.</p>
               <p class="row col-md-12 mb-0">Summer Research Assistant in Columbia Intelligent and Connected Systems Lab.</p>
               <ul>
-                <li>A system able to auto-discover the sensors connected to it and allocate sensor and actuator resources according to the smart home applications users specified, deployed in multiple lab rooms.</li>
-                <li>Survey on current Edge AI systems and Digital Twin (DT) representation, and design our own system architecture from MCU and sensor hardware to user application. Build the testbed from scratch.</li>
-                <li>Testbed: Arduino Uno reads custom sensor data (vibration, sound, etc.) and transmit them to ESP8266 via UART. ESP8266 packs data with DT format and MQTT discovery format, and sends them to lab computer server (HTTP with Flask) and Home Assistant Raspberry Pi server (MQTT). Integrate Google Nest camera into HA and get the video stream. Data stored in PostgreSQL and MarialDB.</li>
-                <li>Not major contributor: Demo Abstract on SenSys 2021 [<a href="https://doi.org/10.1145/3485730.3492881">DOI</a>].</li>
+                <li>An auto-discover system able to allocate sensors and actuators according to the smart home applications specified by users; deployed in multiple lab rooms.</li>
+                <li>Designed the MCU/sensors-to-application architecture and built the hardware testbed from scratch.</li>
+                <li>Testbed: Arduino Uno reads custom sensor data (vibration, sound, etc.) and transmits them to ESP8266 via UART. ESP8266 packs data with DT format and MQTT discovery format, and sends them to a lab computer server (HTTP with Flask) and Home Assistant Raspberry Pi server (MQTT). Integrated Google Nest camera into HA and stored data in PostgreSQL and MariaDB.</li>
+                <li>Published at SenSys 2021 [<a href="https://doi.org/10.1145/3485730.3492881">DOI</a>].</li>
               </ul>
             </div>
             <div class="col-md-4 ml-auto">
@@ -254,10 +268,10 @@
               <p class="row col-md-12 mb-0">Supervised by Prof. Xiaofan (Fred) Jiang, Columbia University.</p>
               <p class="row col-md-12 mb-0">Research Intern in Columbia Intelligent and Connected Systems Lab.</p>
               <ul>
-                <li>A low-cost system based on RGB-thermal camera for continuous fever screening of multiple people without human interaction, deployed in a restaurant and hospital clinic in New York City.</li>
-                <li>Investigate solutions. Match multiple RGB and thermal heads, train and deploy YOLOV3 (head detection) and FSA- Net (head orientation regression), estimate distance using non-identical RGB and thermal camera, etc.</li>
-                <li>Publications accepted by Poster Abstract on SenSys 2020 [<a href="https://dl.acm.org/doi/10.1145/3384419.3430398">DOI</a>], CPHS 2021 [<a href="https://dl.acm.org/doi/10.1145/3458648.3460006">DOI</a>], and IPSN 2022 [<a href="https://doi.org/10.1109/IPSN54338.2022.00009">DOI</a>].</li>
-                <li>News: <a href="https://www.ee.columbia.edu/ee-professor-fred-jiang-and-team-win-award-develop-continuous-fever-detection-system">Columbia Electrical Engineering</a>. Project website: <a href="http://icsl.ee.columbia.edu/FeverScreening/">ICSL Fever Screening</a>.</li>
+                <li>A low-cost system based on RGB-thermal cameras for continuous fever screening of multiple people without human interaction; deployed in a restaurant and hospital clinic in New York City. Featured in <a href="https://www.ee.columbia.edu/ee-professor-fred-jiang-and-team-win-award-develop-continuous-fever-detection-system">Columbia News</a>.</li>
+                <li>Implemented multiple RGB-thermal heads matching, trained and deployed YOLOV3 (head detection) and FSA-Net (head orientation regression), and estimated distance using non-identical RGB and thermal camera.</li>
+                <li>Published at SenSys 2020 [<a href="https://dl.acm.org/doi/10.1145/3384419.3430398">DOI</a>], CPHS 2021 [<a href="https://dl.acm.org/doi/10.1145/3458648.3460006">DOI</a>], and IPSN 2022 [<a href="https://doi.org/10.1109/IPSN54338.2022.00009">DOI</a>].</li>
+                <li>Project website: <a href="http://icsl.ee.columbia.edu/FeverScreening/">ICSL Fever Screening</a>.</li>
               </ul>
             </div>
             <div class="col-md-3 ml-auto">
@@ -271,10 +285,10 @@
               <p class="row col-md-12 mb-0">Supervised by Prof. Eugene Wu, Columbia University.</p>
               <p class="row col-md-12 mb-0">Research Intern in WuLab Columbia University.</p>
               <ul>
-                <li>The server-side scheduler involves a complex optimization based on available resources, predicted user interactions, and response quality levels to maximize user-perceived interactivity in real-time.</li>
-                <li>Create the simulated RL environment, which can pre-compute the transition relationships or compute it dynamically in run-time.</li>
-                <li>Write Q-Learning and SARSA based prefetching scheduler to trade off latency for response quality with the progressive encoded response in cloud-based interactive applications.</li>
-                <li>Add predicted user preferred action choice to algorithms above.</li>
+                <li>A server-side scheduler involving a complex optimization based on available resources, predicted user interactions, and response quality levels to maximize user-perceived interactivity and satisfaction in real-time.</li>
+                <li>Created the simulated RL environment, which can pre-compute transition relationships or compute them dynamically at run time.</li>
+                <li>Implemented Q-learning and SARSA-based prefetching schedulers to trade off latency and response quality with progressive encoded responses in cloud-based interactive applications.</li>
+                <li>Added predicted user-preferred action choices to the algorithms above.</li>
                 <li>Project GitHub: <a href="https://github.com/YangChenye/Khameleon-Scheduler-RL">Khameleon-Scheduler-RL</a>.</li>
               </ul>
             </div>
@@ -309,9 +323,9 @@
               <p class="row col-md-12 mb-0">Member of XJTU Information-technology Talent Program.</p>
               <p class="row col-md-12 mb-0">Research Intern in Ministry of Education Key Lab for Intelligent Networks and Network Security.</p>
               <ul>
-                <li>Propose centralized K-means algorithm, using weighted combination of features from PCA and prior knowledge. Expand it to distributed cases, using parameter consensus and feature transferring method.</li>
-                <li>Write centralized & distributed K-means clustering algorithms for massive data on energy demand side. Analyze the results obtained from the power system in a city. Contribute to paper writing.</li>
-                <li>Outcome: Two papers written and one accepted by Chinese Control Conference [<a href="https://doi.org/10.23919/ChiCC.2018.8483451">DOI</a>].</li>
+                <li>Proposed centralized and distributed K-means methods using weighted combinations of PCA features and prior knowledge, plus parameter consensus and feature-transfer methods.</li>
+                <li>Analyzed urban power grid data and contributed to paper writing.</li>
+                <li>Published at Chinese Control Conference 2018 [<a href="https://doi.org/10.23919/ChiCC.2018.8483451">DOI</a>].</li>
               </ul>
             </div>
             <div class="col-md-3 ml-auto">
@@ -328,24 +342,29 @@
           <h2 class="text-black">Publication</h2>
           <p class="ucdavis mb-0">University of California, Davis</p>
           <ol>
-            <li><u>Chenye Yang</u>, Mo Lyu, Guanlin Liu, Lifeng Lai, "Human Feedback Attack on Online RLHF: Attack and Robust Defense" <i>(IEEE Transactions on Signal Processing 2025)</i> [<a href="https://doi.org/10.1109/TSP.2025.3607114">DOI</a>].</li>
-            <li><u>Chenye Yang</u>, Guanlin Liu, Lifeng Lai, "Stochastic Bandits With Non-Stationary Rewards: Reward Attack and Defense" <i>(IEEE Transactions on Signal Processing 2024)</i> [<a href="https://doi.org/10.1109/TSP.2024.3486240">DOI</a>].</li>
-            <li><u>Chenye Yang</u>, Guanlin Liu, Lifeng Lai, "Reward Attack on Stochastic Bandits with Non-stationary Rewards" <i>(ACSSC 2023)</i> [<a href="https://doi.org/10.1109/IEEECONF59524.2023.10476992">DOI</a>].</li>
+            <li><u>Chenye Yang</u>, Weiyu Xu, Lifeng Lai, "Adversarially Robust Direct Preference Optimization against Preference Label Flip Attacks" <i>Manuscript under review</i>.</li>
+            <li>Mo Lyu, <u>Chenye Yang</u>, Lifeng Lai, "Efficient Reward Manipulation Attacks Against GRPO under RLVR" <i>Manuscript under review</i>.</li>
+            <li><u>Chenye Yang</u>, Weiyu Xu, Lifeng Lai, "Efficient Preference Poisoning Attack on Offline RLHF" <i>The 43rd International Conference on Machine Learning (ICML 2026)</i> [<a href="https://doi.org/10.48550/arXiv.2605.02495">DOI</a>].</li>
+            <li>Mo Lyu, <u>Chenye Yang</u>, Guanlin Liu, Lifeng Lai, "Dueling Bandit: Adversarial Attack and Robust Defense" <i>Manuscript under review</i>.</li>
+            <li>Mo Lyu, <u>Chenye Yang</u>, Guanlin Liu, Lifeng Lai, "Adversarial Post-Action Attacks on Dueling Bandits" <i>The 59th Asilomar Conference on Signals, Systems, and Computers (ACSSC 2025)</i> [<a href="https://doi.org/10.1109/IEEECONF67917.2025.11443548">DOI</a>].</li>
+            <li><u>Chenye Yang</u>, Mo Lyu, Guanlin Liu, Lifeng Lai, "Human Feedback Attack on Online RLHF: Attack and Robust Defense" <i>IEEE Transactions on Signal Processing, Volume: 73 (IEEE TSP 2025)</i> [<a href="https://doi.org/10.1109/TSP.2025.3607114">DOI</a>].</li>
+            <li><u>Chenye Yang</u>, Guanlin Liu, Lifeng Lai, "Stochastic Bandits With Non-Stationary Rewards: Reward Attack and Defense" <i>IEEE Transactions on Signal Processing, Volume: 72 (IEEE TSP 2024)</i> [<a href="https://doi.org/10.1109/TSP.2024.3486240">DOI</a>].</li>
+            <li><u>Chenye Yang</u>, Guanlin Liu, Lifeng Lai, "Reward Attack on Stochastic Bandits with Non-stationary Rewards" <i>The 57th Asilomar Conference on Signals, Systems, and Computers (ACSSC 2023)</i> [<a href="https://doi.org/10.1109/IEEECONF59524.2023.10476992">DOI</a>].</li>
           </ol>
           <p class="columbia mb-0">Columbia University</p>
           <ol>
-            <li>Kaiyuan Hou, Yanchen Liu, Peter Wei, <u>Chenye Yang</u>, Hengjiu Kang, Stephen Xia, Teresa Spada, Andrew Rundle, Xiaofan Jiang, "A Low-Cost In-situ System for Continuous Multi-Person Fever Screening" <i>(IPSN 2022)</i> [<a href="https://doi.org/10.1109/IPSN54338.2022.00009">DOI</a>].</li>
-            <li>Stephen Xia, Rishikanth Chandrasekaran, Yanchen Liu, <u>Chenye Yang</u>, Tajana Simunic Rosing, Xiaofan Jiang, "Demo Abstract: A Drone-based System for Intelligent and Autonomous Homes" <i>(SenSys 2021 Best Demo Award)</i> [<a href="https://doi.org/10.1145/3485730.3492881">DOI</a>].</li>
-            <li>Peter Wei, Yanchen Liu, Hengjiu Kang, <u>Chenye Yang</u>, Xiaofan Jiang, "A Low-Cost and Scalable Personalized Thermal Comfort Estimation System in Indoor Environments" <i>(CPHS 2021)</i> [<a href="https://doi.org/10.1145/3458648.3460006">DOI</a>].</li>
-            <li>Peter Wei, <u>Chenye Yang</u>, Xiaofan Jiang, "Poster Abstract: Low-Cost Multi-Person Continuous Skin Temperature Sensing System for Fever Detection" <i>(SenSys 2020 Poster)</i> [<a href="https://dl.acm.org/doi/10.1145/3384419.3430398">DOI</a>].</li>
+            <li>Kaiyuan Hou, Yanchen Liu, Peter Wei, <u>Chenye Yang</u>, Hengjiu Kang, Stephen Xia, Teresa Spada, Andrew Rundle, Xiaofan Jiang, "A Low-Cost In-situ System for Continuous Multi-Person Fever Screening" <i>The 21st ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN 2022)</i> [<a href="https://doi.org/10.1109/IPSN54338.2022.00009">DOI</a>].</li>
+            <li>Stephen Xia, Rishikanth Chandrasekaran, Yanchen Liu, <u>Chenye Yang</u>, Tajana Simunic Rosing, Xiaofan Jiang, "Demo Abstract: A Drone-based System for Intelligent and Autonomous Homes" <i>The 19th ACM Conference on Embedded Networked Sensor Systems (SenSys 2021), Best Demo Award</i> [<a href="https://doi.org/10.1145/3485730.3492881">DOI</a>].</li>
+            <li>Peter Wei, Yanchen Liu, Hengjiu Kang, <u>Chenye Yang</u>, Xiaofan Jiang, "A Low-Cost and Scalable Personalized Thermal Comfort Estimation System in Indoor Environments" <i>The 1st International Workshop on Cyber-Physical-Human System Design and Implementation (CPHS 2021)</i> [<a href="https://doi.org/10.1145/3458648.3460006">DOI</a>].</li>
+            <li>Peter Wei, <u>Chenye Yang</u>, Xiaofan Jiang, "Poster Abstract: Low-Cost Multi-Person Continuous Skin Temperature Sensing System for Fever Detection" <i>The 18th ACM Conference on Embedded Networked Sensor Systems (SenSys 2020)</i> [<a href="https://dl.acm.org/doi/10.1145/3384419.3430398">DOI</a>].</li>
           </ol>
           <p class="sysu mb-0">Sun Yat-sen University</p>
           <ol>
-            <li><u>Chenye Yang</u>, "Optimal Design of Integrated Photonic Devices Based on Regression Analysis and Constrained Optimization Problem Solving" <i>(Xi'an Jiaotong University undergraduate thesis)</i>.</li>
+            <li><u>Chenye Yang</u>, "Optimal Design of Integrated Photonic Devices Based on Regression Analysis and Constrained Optimization Problem Solving" <i>Xi'an Jiaotong University undergraduate thesis</i>.</li>
           </ol>
           <p class="xjtu mb-0">Xi'an Jiaotong University</p>
           <ol>
-            <li>Pengyuan Liu, <u>Chenye Yang</u>, Jiang Wu, "Hybrid Features Based K-means Clustering Algorithm for Use in Electricity Customer Load Pattern Analysis" <i>(Chinese Control Conference 2018)</i> [<a href="https://doi.org/10.23919/ChiCC.2018.8483451">IEEE DOI</a>].</li>
+            <li>Pengyuan Liu, <u>Chenye Yang</u>, Jiang Wu, "Hybrid Features Based K-means Clustering Algorithm for Use in Electricity Customer Load Pattern Analysis" <i>The 37th Chinese Control Conference (CCC 2018)</i> [<a href="https://doi.org/10.23919/ChiCC.2018.8483451">DOI</a>].</li>
           </ol>
 
         </div>
@@ -397,7 +416,7 @@
             <!--            <a href="http://icsl.ee.columbia.edu/" class="pl-3 pr-3"><span class="icon-flask" title="Lab"></span></a>-->
             <a href="files/ChenyeYang_UCDavis_ECE_PhD.pdf" class="pl-3 pr-3" title="Résumé"><span class="icon-download"></span></a>
           </div>
-          <p class="my-4">Update on Feb 15, 2026</p>
+          <p class="my-4">Update on May 14, 2026</p>
         </div>
       </div>
     </div>
