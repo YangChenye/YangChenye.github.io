@@ -194,17 +194,18 @@
 
 
 
-          <h3><span style="float:left">Adversarially Robust DPO</span><span style="float:right"><i class="ucdavis" style="font-size: smaller">Jan 2026 - Present</i></span></h3>
+          <h3><span style="float:left">Adversarially Robust DPO</span><span style="float:right"><i class="ucdavis" style="font-size: smaller">Jan 2026 - Jul 2026</i></span></h3>
           <div class="row col-md-12 mb-0">
             <!-- <div class="col-md-8"> -->
             <p class="row col-md-12 mb-0">Supervised by Prof. Lifeng Lai, UC Davis.</p>
             <p class="row col-md-12 mb-0">Graduate Student Researcher in Lai's group.</p>
             <ul>
-              <li>Study adversarial robustness of DPO against preference poisoning from a theoretical perspective.</li>
-              <li>Develop gradient-space analysis showing how flipped pairwise comparisons perturb log-linear DPO.</li>
-              <li>Propose Trim-$K$ and Soft-Trim-$K$ Robust-DPO, which remove or downweight high-impact preference pairs.</li>
-              <li>Prove worst-case gradient-bias, parameter- and policy-deviation guarantees for the proposed robust DPO algorithms.</li>
-              <li>Conduct experiments on the SHP dataset to validate the theoretical robustness behavior. Manuscript under review.</li>
+              <li>Study adversarial robustness of DPO under preference poisoning from a theoretical perspective.</li>
+              <li>Design Trim-<i>K</i> and Soft-Trim-<i>K</i> robust DPO based on preference pairs' potential label-flip gradient impact.</li>
+              <li>Establish deterministic gradient-bias bounds uniformly over all fixed attacks with at most <i>K</i> flips.</li>
+              <li>Derive time-uniform parameter and policy-KL deviation bounds under bounded-region and curvature assumptions.</li>
+              <li>Analyze regularized variants, quantifying the trade-off between increased curvature and additional bias to clean DPO.</li>
+              <li>Evaluate on SHP, HH-RLHF, and UltraFeedback-Binarized through baseline comparisons, attack-budget sweeps, and ablations, demonstrating robustness gains. Manuscript under review.</li>
             </ul>
             <!-- </div> -->
             <!-- <div class="col-md-4 ml-auto">
@@ -369,10 +370,10 @@
           <h2 class="text-black">Publication</h2>
           <p class="ucdavis mb-0">University of California, Davis</p>
           <ol>
-            <li><u>Chenye Yang</u>, Weiyu Xu, Lifeng Lai, "Adversarially Robust Direct Preference Optimization against Preference Label Flip Attacks" <i>Manuscript under review</i>.</li>
+            <li><u>Chenye Yang</u>, Weiyu Xu, Lifeng Lai, "Robust Direct Preference Optimization under Preference Label-Flip Attacks" <i>Manuscript under review</i>.</li>
             <li>Mo Lyu, <u>Chenye Yang</u>, Lifeng Lai, "Efficient Reward Manipulation Attacks Against GRPO under RLVR" <i>Manuscript under review</i>.</li>
             <li><u>Chenye Yang</u>, Weiyu Xu, Lifeng Lai, "Efficient Preference Poisoning Attack on Offline RLHF" <i>The 43rd International Conference on Machine Learning (ICML 2026)</i> [<a href="https://doi.org/10.48550/arXiv.2605.02495">DOI</a>].</li>
-            <li>Mo Lyu, <u>Chenye Yang</u>, Guanlin Liu, Lifeng Lai, "Dueling Bandit: Adversarial Attack and Robust Defense" <i>Manuscript under review</i>.</li>
+            <li>Mo Lyu, <u>Chenye Yang</u>, Guanlin Liu, Lifeng Lai, "Dueling Bandit: Adversarial Attack and Robust Defense" <i>IEEE Transactions on Signal Processing, Volume: 74 (IEEE TSP 2026)</i> [<a href="https://doi.org/10.1109/TSP.2026.3728682">DOI</a>].</li>
             <li>Mo Lyu, <u>Chenye Yang</u>, Guanlin Liu, Lifeng Lai, "Adversarial Post-Action Attacks on Dueling Bandits" <i>The 59th Asilomar Conference on Signals, Systems, and Computers (ACSSC 2025)</i> [<a href="https://doi.org/10.1109/IEEECONF67917.2025.11443548">DOI</a>].</li>
             <li><u>Chenye Yang</u>, Mo Lyu, Guanlin Liu, Lifeng Lai, "Human Feedback Attack on Online RLHF: Attack and Robust Defense" <i>IEEE Transactions on Signal Processing, Volume: 73 (IEEE TSP 2025)</i> [<a href="https://doi.org/10.1109/TSP.2025.3607114">DOI</a>].</li>
             <li><u>Chenye Yang</u>, Guanlin Liu, Lifeng Lai, "Stochastic Bandits With Non-Stationary Rewards: Reward Attack and Defense" <i>IEEE Transactions on Signal Processing, Volume: 72 (IEEE TSP 2024)</i> [<a href="https://doi.org/10.1109/TSP.2024.3486240">DOI</a>].</li>
