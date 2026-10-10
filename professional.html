@@ -38,10 +38,10 @@
 <div class="site-wrap">
 
 
-  <div class="site-mobile-menu">
+  <div class="site-mobile-menu" id="site-mobile-menu" inert aria-hidden="true">
     <div class="site-mobile-menu-header">
       <div class="site-mobile-menu-close mt-3">
-        <span class="icon-close2 js-menu-toggle"></span>
+        <button type="button" class="icon-close2 js-menu-toggle" aria-label="Close navigation menu"></button>
       </div>
     </div>
     <div class="site-mobile-menu-body"></div>
@@ -87,7 +87,7 @@
                 <ul class="dropdown">
                   <li><a href="professional.html#internship">Internship</a></li>
                   <li><a href="professional.html#project">Project</a></li>
-                  <li><a href="professional.html#teaching">Teaching</a></li>
+                  <li><a href="professional.html#teaching">Teaching &amp; Service</a></li>
                   <li><a href="professional.html#skill">Skill</a></li>
                   <li><a href="professional.html#honor">Honor & Award</a></li>
                 </ul>
@@ -131,7 +131,7 @@
             </ul>
           </div>
 
-          <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+          <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><button type="button" class="site-menu-toggle js-menu-toggle text-black" aria-label="Open navigation menu" aria-controls="site-mobile-menu" aria-expanded="false"><span class="icon-menu h3" aria-hidden="true"></span></button></div>
 
         </div>
 

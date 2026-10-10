@@ -143,7 +143,7 @@
 								left: 100%;
 								top: 0;
 							}
-							&:hover, &:active, &:focus {
+							&:hover, &:active, &:focus, &:focus-within {
 								> a {
 									background: lighten($gray-4, 2%);
 									color: $gray-1;
@@ -155,12 +155,12 @@
 				a {
 					text-transform: uppercase;
 				}
-				&:hover, &:focus, &:active {
+				&:hover, &:focus, &:active, &:focus-within {
 					> a {
 						color: $primary;
 					}
 				}
-				&:hover, &:focus, &:active {
+				&:hover, &:focus, &:active, &:focus-within {
 					cursor: pointer;
 					> .dropdown {
 						transition-delay: 0s;
@@ -196,6 +196,17 @@
 
 // mobile menu
 
+.site-menu-toggle,
+.site-mobile-menu-close button,
+.site-mobile-menu .arrow-collapse {
+	border: 0;
+	padding: 0;
+	background: none;
+	color: inherit;
+	font: inherit;
+	cursor: pointer;
+}
+
 .site-mobile-menu {
 	width: 300px;
 	position: fixed;
@@ -204,13 +215,16 @@
 	padding-top: 20px;
 	background: $white;
 	height: calc(100vh);
+	visibility: hidden;
 	
 	transform: translateX(110%);
 	box-shadow: -10px 0 20px -10px rgba(0,0,0,.1);
-	transition: .3s all ease-in-out;
+	transition: .3s transform ease-in-out, visibility 0s .3s;
 
 	.offcanvas-menu & {
+		visibility: visible;
 		transform: translateX(0%);
+		transition-delay: 0s;
 	}
 
 	.site-mobile-menu-header {
@@ -222,7 +236,7 @@
 		.site-mobile-menu-close {
 			float: right;
 			margin-top: 8px;
-			span {
+			span, button {
 				font-size: 30px;
 				display: inline-block;
 				padding-left: 10px;

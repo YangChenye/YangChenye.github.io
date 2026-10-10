@@ -90,6 +90,10 @@ a {
 	}
 }
 
+#project li {
+	overflow-wrap: anywhere;
+}
+
 .site-section {
 	padding: 2.5em 0;
 	@include media-breakpoint-up(md) {

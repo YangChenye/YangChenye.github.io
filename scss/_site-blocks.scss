@@ -4,6 +4,10 @@
 	background-repeat: no-repeat;
 	background-position: top;
 	background-position: center center;
+	@media (max-width: 1199.98px), (pointer: coarse) {
+		// Keep the image centered even if Stellar has set inline offsets.
+		background-position: center center !important;
+	}
 	&.overlay {
 		position: relative;
 		&:before {

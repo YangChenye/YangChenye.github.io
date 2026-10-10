@@ -11,82 +11,110 @@ jQuery(document).ready(function($) {
 	
 
 	var siteMenuClone = function() {
+		var $menu = $('.site-mobile-menu');
+		var $toggle = $('.site-navbar .js-menu-toggle');
+		var opener;
 
 		$('.js-clone-nav').each(function() {
-			var $this = $(this);
-			$this.clone().attr('class', 'site-nav-wrap').appendTo('.site-mobile-menu-body');
+			$(this).clone().attr('class', 'site-nav-wrap').appendTo('.site-mobile-menu-body');
 		});
 
+		$menu.attr({ 'role': 'dialog', 'aria-modal': 'true', 'aria-label': 'Navigation menu' });
+		$menu.find('.has-children').each(function(counter) {
+			var $item = $(this);
+			var submenuId = 'collapseItem' + counter;
+			$item.children('ul').attr({ 'class': 'collapse', 'id': submenuId });
+			$item.prepend($('<button>', {
+				'type': 'button',
+				'class': 'arrow-collapse collapsed',
+				'aria-label': 'Toggle ' + $item.children('a').first().text().trim() + ' submenu',
+				'aria-controls': submenuId,
+				'aria-expanded': 'false',
+				'data-toggle': 'collapse',
+				'data-target': '#' + submenuId
+			}));
+		});
 
-		setTimeout(function() {
-			
-			var counter = 0;
-      $('.site-mobile-menu .has-children').each(function(){
-        var $this = $(this);
-        
-        $this.prepend('<span class="arrow-collapse collapsed">');
-
-        $this.find('.arrow-collapse').attr({
-          'data-toggle' : 'collapse',
-          'data-target' : '#collapseItem' + counter,
-        });
-
-        $this.find('> ul').attr({
-          'class' : 'collapse',
-          'id' : 'collapseItem' + counter,
-        });
-
-        counter++;
-
-      });
-
-    }, 1000);
-
-		$('body').on('click', '.arrow-collapse', function(e) {
-      var $this = $(this);
-      if ( $this.closest('li').find('.collapse').hasClass('show') ) {
-        $this.removeClass('active');
-      } else {
-        $this.addClass('active');
-      }
-      e.preventDefault();  
-      
-    });
-
-		$(window).resize(function() {
-			var $this = $(this),
-				w = $this.width();
-
-			if ( w > 768 ) {
-				if ( $('body').hasClass('offcanvas-menu') ) {
-					$('body').removeClass('offcanvas-menu');
-				}
+		var closeMenu = function(restoreFocus) {
+			if ($menu[0].contains(document.activeElement)) {
+				document.activeElement.blur();
 			}
-		})
+			$('body').removeClass('offcanvas-menu');
+			$menu.prop('inert', true).attr('aria-hidden', 'true');
+			$toggle.removeClass('active').attr('aria-expanded', 'false');
+			if (restoreFocus && opener) {
+				opener.focus({ preventScroll: true });
+			}
+		};
 
-		$('body').on('click', '.js-menu-toggle', function(e) {
-			var $this = $(this);
-			e.preventDefault();
+		var focusMenu = function() {
+			if (!$('body').hasClass('offcanvas-menu') || $menu[0].contains(document.activeElement)) return;
+			var closeButton = $menu.find('.site-mobile-menu-close button')[0];
+			// The visibility transition must take effect before the button can receive focus.
+			if (getComputedStyle(closeButton).visibility === 'visible') {
+				closeButton.focus({ preventScroll: true });
+			}
+			if (!$menu[0].contains(document.activeElement)) requestAnimationFrame(focusMenu);
+		};
 
-			if ( $('body').hasClass('offcanvas-menu') ) {
-				$('body').removeClass('offcanvas-menu');
-				$this.removeClass('active');
+		$('body').on('click', '.js-menu-toggle', function() {
+			if ($('body').hasClass('offcanvas-menu')) {
+				closeMenu(true);
 			} else {
+				opener = this;
+				$menu.prop('inert', false).attr('aria-hidden', 'false');
 				$('body').addClass('offcanvas-menu');
-				$this.addClass('active');
+				$toggle.addClass('active').attr('aria-expanded', 'true');
+				requestAnimationFrame(focusMenu);
 			}
-		}) 
-
-		// click outisde offcanvas
-		$(document).mouseup(function(e) {
-	    var container = $(".site-mobile-menu");
-	    if (!container.is(e.target) && container.has(e.target).length === 0) {
-	      if ( $('body').hasClass('offcanvas-menu') ) {
-					$('body').removeClass('offcanvas-menu');
-				}
-	    }
 		});
-	}; 
+
+		$menu.on('click', 'a[href]', function() {
+			closeMenu(false);
+			// Keep keyboard focus at a selected section after same-page navigation.
+			if (this.origin === location.origin && this.pathname === location.pathname &&
+				this.search === location.search && this.hash) {
+				var section = document.getElementById(decodeURIComponent(this.hash.slice(1)));
+				if (section) {
+					section.setAttribute('tabindex', '-1');
+					section.focus({ preventScroll: true });
+				}
+			}
+		});
+
+		$(document).on('click', function(event) {
+			if ($('body').hasClass('offcanvas-menu') &&
+				!$(event.target).closest('.site-mobile-menu, .js-menu-toggle').length) {
+				closeMenu(true);
+			}
+		});
+
+		$(document).on('keydown', function(event) {
+			if (!$('body').hasClass('offcanvas-menu')) return;
+			if (event.key === 'Escape') {
+				event.preventDefault();
+				closeMenu(true);
+			} else if (event.key === 'Tab') {
+				var $controls = $menu.find('a[href], button').filter(':visible');
+				var first = $controls[0];
+				var last = $controls[$controls.length - 1];
+				if (!$menu[0].contains(document.activeElement)) {
+					event.preventDefault();
+					(event.shiftKey ? last : first).focus();
+				} else if (event.shiftKey && document.activeElement === first) {
+					event.preventDefault();
+					last.focus();
+				} else if (!event.shiftKey && document.activeElement === last) {
+					event.preventDefault();
+					first.focus();
+				}
+			}
+		});
+
+		window.matchMedia('(min-width: 1200px)').addListener(function(event) {
+			if (event.matches) closeMenu(false);
+		});
+	};
 	siteMenuClone();
 
 
@@ -202,14 +230,25 @@ jQuery(document).ready(function($) {
 	siteCarousel();
 
 	var siteStellar = function() {
-		$(window).stellar({
-	    responsive: false,
-	    parallaxBackgrounds: true,
-	    parallaxElements: true,
-	    horizontalScrolling: false,
-	    hideDistantElements: false,
-	    scrollProperty: 'scroll'
-	  });
+		var mobileBackgrounds = window.matchMedia('(max-width: 1199.98px), (pointer: coarse)');
+		var updateParallax = function() {
+			// A cover image has no vertical overflow on phones, so parallax exposes gaps.
+			if (mobileBackgrounds.matches) {
+				$(window).stellar('destroy');
+				return;
+			}
+
+			$(window).stellar({
+				responsive: true,
+				parallaxBackgrounds: true,
+				parallaxElements: true,
+				horizontalScrolling: false,
+				hideDistantElements: false,
+				scrollProperty: 'scroll'
+			});
+		};
+		updateParallax();
+		mobileBackgrounds.addListener(updateParallax);
 	};
 	siteStellar();
 
