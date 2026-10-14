@@ -240,7 +240,7 @@ jQuery(document).ready(function($) {
 
 			$(window).stellar({
 				responsive: true,
-				parallaxBackgrounds: true,
+				parallaxBackgrounds: false,
 				parallaxElements: true,
 				horizontalScrolling: false,
 				hideDistantElements: false,
